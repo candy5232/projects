@@ -1,0 +1,635 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>旅游详细路线_旅游网_出境游_国内游_自助游 - 假期国旅网_yoyotrip.com</title>
+<meta name="keywords" content="旅游，旅游网，自助游，跟团游，公司旅游">
+<meta name="description" content="假期国旅网-中国最专业全面的旅游线路和自助游一站式旅游服务提供商,客户满意度94%;提供自助游,周边旅游,国内旅游,出境旅游。实时发团日期,报价,行程,全程优质的服务保障">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/detailspage.css" />
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/ob_free.js"></script>
+<script type="text/javascript" src="js/riqi.js"></script>
+</head>
+<body>
+<div style="text-align:center ; width:1000px; margin:0 auto;height:88px;"> <a href="#" target="_blank"><img src="images/guanggao1.jpg" /></a> </div>
+<!--Logo 广告 登陆 注册 电话  微博  开始-->
+<div class="header_wrap clearfix">
+  <div class="logo">
+    <h1><a href="#"><img src="images/logo.gif" width="237" height="93" title="假期国旅网" alt="假期国旅网" /></a></h1>
+  </div>
+  <div class="he_ad"> <a href="#"><img src="images/guanggao2.jpg" width="285" height="75" /></a> </div>
+  <div class="hd_tel"><a href="#"><img src="images/dianhua.gif" width="221" height="80" /></a></div>
+  <div class="top-hd">
+    <div class="top-user">
+      <div class="login_txt"> <span class="s-1"> <a title="登录"  target="_blank" href="#">登录</a> </span> <i>|</i> <span class="s-2"> <a title="注册" target="_blank" href="#">注册</a></span> </div>
+      <!--快速登录-->
+      <div class="outer_sites">
+        <label>快速登录</label>
+        <div class="sites_box" id="sitesBox"> <a href="#" id="sinaLink" class="sina_ico" title="新浪微博帐号登录"></a> <a href="#" id="tweiboLink" class="tweibo_ico" title="腾讯微博帐号登录"></a> <a href="#" id="renrenLink" class="renren_ico" title="人人登录"></a> <a href="#" id="wangyiLink" class="wangyi_ico" title="网易微博登录"></a> </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Logo 广告 登陆 注册  电话  微博 结束--> 
+<!--导航 开始-->
+<div class="nav">
+  <div class="nav_main">
+    <ul class="nav_list">
+      <li><a href="#"  rel="nofollow">首页</a></li>
+      <li><a href="#"class="cur_nav"  title="牛人专线" rel="nofollow" ><span>出境旅游</span></a></li>
+      <li><a href="#" rel="nofollow"><span>国内旅游</span><span class="tejia">特价</span></a></li>
+      <li><a href="#"><span>自由行</span><span class="fanxian">返现</span></a></li>
+      <li><a href="#" rel="nofollow">邮轮</a></li>
+      <li><a href="#" rel="nofollow">海岛</a></li>
+      <li><a href="#" rel="nofollow">签证</a></li>
+      <li><a href="#" rel="nofollow"><span>景点</span><span class="temai">热卖</span></a></li>
+    </ul>
+  </div>
+</div>
+<!--导航结束--> 
+<!-- 头部 开始-->
+<div id="box"> 
+  <!--第一栏目 开始 -->
+  <div class="div">
+    <div class="part bord shadow fl"> 
+      <script language="javascript" type="text/javascript">
+												 function g(o){return document.getElementById(o);}
+                  				  function HoverLi(n){
+                  			  for(var i=1;i<=3;i++){g('tb_'+i).className='normaltab';g('tbc_0'+i).className='undis';}g('tbc_0'+n).className='dis';g('tb_'+n).className='hovertab';}
+     		  </script>
+      <div class="hover"> <span id="tb_1" class="hovertab" onmouseover="x:HoverLi(1);">出境游</span> <span id="tb_2" class="normaltab" onmouseover="x:HoverLi(2);">国内游</span> <span id="tb_3" class="normaltab" onmouseover="x:HoverLi(3);">自由行</span> </div>
+      <div class="hover_xs">
+        <div class="dis" id="tbc_01">
+          <ul class="list">
+            <li><span>目的地：</span>
+              <input type="text" value="目的地/省份/国家" maxlength="20" class="i_city" id="Round_DepartCity" datacheck="">
+              <input type="hidden" id="Round_DepartCity_ID" value="BJS">
+            </li>
+            <li class="flight_type3">价  格：
+              <select id="InternalTR">
+                <option value="0--0">没有限制</option>
+                <option value="12000--50000">12000--50000元</option>
+                <option value="8000--12000">8000--12000元</option>
+                <option value="5001--8000">5001--8000元</option>
+                <option value="3001--5000">3001--5000元</option>
+                <option value="2000--3000">2000--3000元</option>
+                <option value="0--2000">2000元以下</option>
+              </select>
+            </li>
+          </ul>
+          <div class="searchbtnbox">
+            <input class="searchbtn" id="btnSearch" method="btnSearch" type="button" onfocus="this.blur()" />
+          </div>
+        </div>
+        <div class="undis" id="tbc_02">
+          <ul class="list">
+            <li><span>目的地：</span>
+              <input type="text" value="目的地/省份/国家" maxlength="20" class="i_city" id="Round_DepartCity" datacheck="">
+              <input type="hidden" id="Round_DepartCity_ID" value="BJS">
+            </li>
+            <li class="flight_type1">价  格：
+              <select id="InternalTR">
+                <option value="0--0">没有限制</option>
+                <option value="12000--50000">12000--50000元</option>
+                <option value="8000--12000">8000--12000元</option>
+                <option value="5001--8000">5001--8000元</option>
+                <option value="3001--5000">3001--5000元</option>
+                <option value="2000--3000">2000--3000元</option>
+                <option value="0--2000">2000元以下</option>
+              </select>
+            </li>
+          </ul>
+          <div class="searchbtnbox">
+            <input class="searchbtn" id="btnSearch" method="btnSearch" type="button" onfocus="this.blur()" />
+          </div>
+        </div>
+        <div class="undis" id="tbc_03">
+          <ul class="list">
+            <li class="country_box">
+              <input type="radio" checked="checked" name="FLY_Internal" value="0">
+              国内<span>
+              <input type="radio" name="FLY_Internal" value="1">
+              国际</span></li>
+            <li><span>目的地：</span>
+              <input type="text" value="" maxlength="20"
+                              class="i_city" name="tourQueryDto.sceneryName" id="tour_scenery_name" datacheck="">
+              <input type="hidden" name="tourQueryDto.sceneryId" id="tour_scenery_value" value="-1">
+            </li>
+            <li class="flight_type2">天  数：
+              <select id="InternalTR">
+                <option value="0" >所有</option>
+                <option value="3" >3天以内</option>
+                <option value="5" >5天以内</option>
+                <option value="7" >7天以内</option>
+                <option value="15" >15天以内</option>
+              </select>
+            </li>
+          </ul>
+          <div class="searchbtnbox">
+            <input class="searchbtn" id="btnSearch" method="btnSearch" type="button" onfocus="this.blur()" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--首页面包屑-->
+    <div class="traverl fr">
+      <div class="traverl_top">
+        <div class="traverl_top_bg">
+          <div class="fbcurrent"> <a href="#">首页</a> <span>></span> <a href="#">出境游</a> <span>></span> <a href="#">旅游路线</a><span> ></span>【港澳特价游】香港澳门4晚5日超值品质游*海洋公园 澳门往返 </div>
+          <div class="traverl_credit"> <img src="images/trackers1.png" width="611" height="91" alt style="display:block;" /> <a href="#"  class="credit_link select"  target="_blank"  rel=" nofollow"></a> <a href="#"  class="credit_link examine"  target="_blank"  rel=" nofollow"></a> <a href="#"  class="credit_link write"  target="_blank"  rel=" nofollow"></a> <a href="#"  class="credit_link subscribe"  target="_blank"  rel=" nofollow"></a> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--第一栏目 结束--> 
+  <!--第二栏目 左侧 开始-->
+  <div class="div">
+    <div class="paft2_left">
+      <div class="phb1 xtbox shadow  fl "> 
+        <!--出境游目的地 版块开始-->
+        <div class="phpos phtop"> 
+       	 <b>出境游目的地</b></div>
+      		  <div class="phbtop"></div>
+      				  <div class="phbcont">
+        			  <dl>
+                    <dt><a href="#">欧洲</a></dt>
+                    <dd><a href="#">阿尔巴尼亚</a></dd>
+                    <dd><a href="#">巴拿马</a></dd>
+                    <dd><a href="#">罗马尼亚</a></dd>
+                    <dd><a href="#">拉脱维亚</a></dd>
+                    <dd><a href="#">爱沙尼亚</a></dd>
+                    <dd><a href="#">巴哈马</a></dd>
+                    <dd><a href="#">白俄罗斯</a></dd>
+                    <dd><a href="#">保加利亚</a></dd>
+                    <dd><a href="#">格鲁吉亚</a></dd>
+                    <dd><a href="#">阿雅达岛哈库</a></dd>
+                    <dd><a href="#">摩尔多瓦</a></dd>
+                    <dd><a href="#">保加利亚</a></dd>
+                    <dd><a href="#">格鲁吉亚</a></dd>
+                    <dd><a href="#">摩尔多瓦</a></dd>
+                    <dd><a href="#">拉岛双鱼岛</a></dd>
+                  </dl>
+                  <dl>
+                            <dt><a href="#">非洲</a></dt>
+                            <dd><a href="#">博茨瓦纳</a></dd>
+                            <dd><a href="#">厄立特里亚</a></dd>
+                            <dd><a href="#">佛得角</a></dd>
+                            <dd><a href="#">科特迪瓦</a></dd>
+                            <dd><a href="#">利比亚</a></dd>
+                            <dd><a href="#">毛里塔尼亚</a></dd>
+                            <dd><a href="#">莫桑比克</a></dd>
+                            <dd><a href="#">尼日利亚</a></dd>
+                            <dd><a href="#">阿尔及利亚</a></dd>
+                            <dd><a href="#">赞比亚</a></dd>
+                            <dd><a href="#">摩尔多瓦</a></dd>
+                            <dd><a href="#">保加利亚</a></dd>
+                            <dd><a href="#">格鲁吉亚</a></dd>
+                            <dd><a href="#">摩尔多瓦</a></dd>
+                            <dd><a href="#">拉岛双鱼岛</a></dd>
+                            <dd><a href="#">美露丽芙岛</a></dd>
+                            <dd><a href="#">摩尔多瓦</a></dd>
+                            <dd><a href="#">库拉玛提岛</a></dd>
+                            <dd><a href="#">格鲁吉亚</a></dd>
+                            <dd><a href="#">罗宾逊岛</a></dd>
+                            <dd><a href="#">捷克共和国</a></dd>
+                          </dl>
+                          <dl>
+                            <dt><a href="#">大洋洲</a></dt>
+                            <dd><a href="#">卡特尔</a></dd>
+                            <dd><a href="#">伊拉克</a></dd>
+                            <dd><a href="#">帕劳</a></dd>
+                            <dd><a href="#">阿富汗</a></dd>
+                            <dd><a href="#">阿曼</a></dd>
+                            <dd><a href="#">厄瓜多尔 孟加拉国</a></dd>
+                            <dd><a href="#">莫桑比克</a></dd>
+                            <dd><a href="#">尼日利亚</a></dd>
+                            <dd><a href="#">阿尔及利亚</dd>
+                            <dd><a href="#">赞比亚</dd>
+                            <dd><a href="#">摩尔多瓦</dd>
+                            <dd><a href="#">巴勒斯坦</a></dd>
+                            <dd><a href="#">格鲁吉亚</a></dd>
+                            <dd><a href="#">摩尔多瓦</a></dd>
+                            <dd><a href="#">拉岛双鱼岛</a></dd>
+                            <dd><a href="#">美露丽芙岛</a></dd>
+                            <dd><a href="#">摩尔多瓦</a></dd>
+                            <dd><a href="#">库拉玛提岛</a></dd>
+                            <dd><a href="#">格鲁吉亚</a></dd>
+                            <dd><a href="#">罗宾逊岛</a></dd>
+                            <dd><a href="#">捷克共和国</a></dd>
+                          </dl>
+                          <dl>
+                            <dt><a href="#">亚洲</a></dt>
+                            <dd><a href="#">博茨瓦纳</a></dd>
+                            <dd><a href="#">厄立特里亚</a></dd>
+                            <dd><a href="#">佛得角</a></dd>
+                            <dd><a href="#">科特迪瓦</a></dd>
+                            <dd><a href="#">利比亚</a></dd>
+                            <dd><a href="#">毛里塔尼亚</a></dd>
+                            <dd><a href="#">莫桑比克</a></dd>
+                            <dd><a href="#">尼日利亚</a></dd>
+                            <dd><a href="#">阿尔及利亚</a></dd>
+                            <dd><a href="#">赞比亚</a></dd>
+                            <dd><a href="#">摩尔多瓦</a></dd>
+                            <dd><a href="#">保加利亚</a></dd>
+                            <dd><a href="#">格鲁吉亚</a></dd>
+                            <dd><a href="#">摩尔多瓦</a></dd>
+                            <dd><a href="#">拉岛双鱼岛</a></dd>
+                            <dd><a href="#">美露丽芙岛</a></dd>
+                            <dd><a href="#">拉岛双鱼岛</a></dd>
+                            <dd><a href="#">美露丽芙岛</a></dd>
+                          </dl>
+         												 <div class="phbbot"></div>
+                                 </div>
+                                 </div>
+                          
+        <!--国内游目的地-->
+        <div class="hd1"> <a href="#" target="_blank" title="广告" alt="广告"><img src="images/201211061528423964.jpg" width="222" height="128" /></a></div>
+        <div class="hd1"> <a href="#" target="_blank" title="广告" alt="广告"><img src="images/201211061528423964.jpg" width="222" height="128" /></a></div>
+        <div class="hd1"> <a href="#" target="_blank" title="广告" alt="广告"><img src="images/201211061528423964.jpg" width="222" height="128" /></a></div>
+        <div class="hd1"> <a href="#" target="_blank" title="广告" alt="广告"><img src="images/201211061528423964.jpg" width="222" height="128" /></a></div>
+        <div class="hd1"> <a href="#" target="_blank" title="广告" alt="广告"><img src="images/201211061528423964.jpg" width="222" height="128" /></a></div>
+        <!--特惠精选、出境游，自由行版块开始 右侧--> 
+     </div>
+      <div class="part6  fr">
+        <div class="edging">
+          <h4>【港澳特价游】香港澳门4晚5日超值品质游*海洋公园 澳门往返</h4>
+          <span class="s1"><a href="#" target="_blank"><img src="images/热卖.gif" /></a></span> <span class="hotlist_price1"> <dfn>¥</dfn> <strong>2080</strong> 起 </span>
+            <北京出发>
+            </span></p>
+          <table style="width:730px" class="tbReason" cellpadding="0" cellspacing="0">
+            <tbody>
+              <tr>
+                <td>出发班期:<span class="red">不定期</span></td>
+                <td>出发地：<span class="red">北京市</span></td>
+                <td>返回地：<span class="red">北京市</span></td>
+                <td>行程天数： <span class="red">8天</span></td>
+           </tr>
+           <tr>
+                <td>出团日期: <span class="red"> 2012/12/4  &nbsp;&nbsp;2012/12/7 </span></td>
+        			 <td >预定电话:<span class="red">400-0580-819</span></td>
+                </tr>
+            </tbody>
+          </table>
+        </div>
+        <!--scroll_nav start-->
+        <ul class="scroll_nav_ul"  id="scroll_nav" selfpack="false">
+          <li class="row_1"><a href="javascript:void(0)" hidefocus="false">产品特色</a></li>
+          <li class="row_2"><a href="javascript:void(0)"  hidefocus="false">行程安排</a></li>
+          <li class="row_3"><a href="javascript:void(0)"  hidefocus="false">费用说明</a></li>
+          <li class="row_4"><a href="javascript:void(0)"  hidefocus="false">备注说明</a></li>
+          <li class="row_5"><a href="javascript:void(0)"  hidefocus="false">签证须知</a></li>
+          <li class="row_6"><a href="javascript:void(0)"  hidefocus="false">温馨提示</a></li>
+          <li class="row_7"><a href="javascript:void(0)"  hidefocus="false">目的地指南</a></li>
+        </ul>
+        <!--scroll_nav end--> 
+        <!--产品特色--> 
+        <i id="row_1" class="pkg-maodian">&nbsp;</i>
+        <h3 class="h3_tit"> <span>产品特色</span> </h3>
+        <div class="row pro_special">
+          <p><strong>港澳特价游系列之选：</strong></p>
+          <p>★【港澳特价游系列】香港澳门4晚5日超值品质游*海洋公园+迪士尼 澳门往返。</p>
+          <p>★【舒适航班】：搭乘澳门国际航空，澳门往返，增加澳门自由活动时间，感受国际航班的温馨服务。 </p>
+          <p> ★【特别赠送】：尊享“洋紫荆维港游”拥有极具特色的观光游览船，您可以陶醉于迷人的日落景致，饱览香港著名的建筑艺术，更可于甲板上全方位亲身体验香港的动感魅力，享受璀璨生辉的海上之旅！ </p>
+          <p>★【舒适住宿】：全程入住当地经济或舒适酒店！ </p>
+          <p>★【舒适航班】：搭乘澳门国际航空，澳门往返，增加澳门自由活动时间，感受国际航班的温馨服务。 </p>
+          <p> ★【特别赠送】：尊享“洋紫荆维港游”拥有极具特色的观光游览船，您可以陶醉于迷人的日落景致，饱览香港著名的建筑艺术，更可于甲板上全方位亲身体验香港的动感魅力，享受璀璨生辉的海上之旅！ </p>
+          <p>★【舒适住宿】：全程入住当地经济或舒适酒店！ </p>
+          <p>★【购物体验】：香港段：2站店+DFS全球免税店、澳门段1站特色手信店。</p>
+          <p><strong>【精华景点】：</strong></p>
+          <p>香港海洋公园是香港一个以海洋为主的大型主题公园，位于香港南区的黄竹坑，1977年1月10日落成启用。2007年，该园入场人次达490万，位列全球第16名，亚太区第5名。香港海洋公园分为3部分，分别为位于北面的山下花园，和南面的南朗山南麓及大树湾，占地共17公顷，有40多个游乐设施。山下花园与南朗山以登山缆车和海洋列车连接。而南朗山与大树湾之间，则以登山电梯连接，是全世界第2长的户外电动扶梯。</p>
+          <div class="day_img"> <img class="img_fl" src="images/datu1.jpg" width="320" height="240" title="黎村苗寨" /> <img class="img_fr"  src="images/datu3.jpg" width="320" height="240"   title="黎村苗寨" /> </div>
+          <p>浅水湾号称"天下第一湾"，也有"东方夏威夷"之美誉,是香港最具代表性的沙滩。浅水湾在香港岛之南，依山傍海，海湾呈新月形，坡缓滩长，波平浪静，水清沙细，沙滩宽阔洁净而水浅，且冬暖夏凉，水温在十六摄氏度至二十七摄氏度之间，历来是港人消夏弄潮的胜地，也是游人必至的著名风景区。昔日，香江八景之一的"海国浮沉"，指的就是浅水湾的海滨浴场。</p>
+        </div>
+        <!--行程安排--> 
+        <i id="row_2" class="pkg-maodian">&nbsp;</i>
+        <h3 class="h3_tit"> <span>行程安排</span> </h3>
+        <div class="row recommend_travel">
+          <div class="day_con">
+            <div class="day_txt"> <b> <strong>第1天</strong> <span>北京/澳门-香港 参考航班：NX007(0830)</span> <i class="icon_plane"></i> <i class="icon_bus"></i> </b> </div>
+            <div class="day_jinaj">
+              <p>北京首都机场搭乘国际航班前往-澳门，抵达澳门机场后乘坐专车前往码头，后乘船前往香港市区，前往香港海洋公园(约2-3小时左右) 在这里你可以看到全世界最大的水族馆、鲨鱼馆、海豚、海狮等动物的精彩表演。享用园内各种新奇刺激的机动游戏。游览著名海滨浅水湾（约20分钟），后前往太平山(约30分钟左右)，一览东方之珠璀璨景色。乘坐洋紫荆号游船载您畅游维多利亚海港，带您浏览维港两岸迷人景致，更让您饱览香港的建筑艺术和杰出建设，把港湾的万千姿彩，让您一览无遗。</p>
+            </div>
+            <ul>
+              <li><b>用餐</b> 敬请自理 </li>
+              <li><b>住宿</b> 长城岭宾馆或运动员公寓</li>
+            </ul>
+          </div>
+          <div class="day_con">
+            <div class="day_txt"> <b> <strong>第2天</strong> <span>香港</span> <i class="icon_plane"></i> <i class="icon_bus"></i> </b> </div>
+            <div class="day_jinaj">
+              <p>早餐后前往有求必应的黄大仙祠(约20分钟)烧香祈福。后前往珠宝展示中心（停留120分钟左右)，九龙都会太平洋免税集团(停留180分钟左右)选购心仪的特色商品。全球DFS免税店(约60分钟)。这里的世界顶级商品应有尽有。后前往星光大道(约20分钟)、车览尖沙咀文化中心、以及见证香港历史的大钟楼（外观）。游览金紫荆广场，会展中心（不入内）(约20分钟)后途经立法会大楼中国银行，外观礼宾府特区政府总部等著名建筑。</p>
+              <p><strong>景点包含:</strong></p>
+              <p> 1、乘竹筏游览中国的“亚马逊”河，体验【生态竹筏漂流】（游览约30分钟）；</p>
+              <p> 2、参观海南特有的少数民族风情——【黎村苗寨】（游览约40分钟），欣赏黎苗歌舞，了解少数民族的人土风情；</p>
+              <p> 3、参观于莽莽热带雨林之探访神秘的【蚩尤部落】（游览约50分钟）体会海南原始部落居民的生活，品味海南原滋原味的土著文化；后继而乘车赴海南最大的归国华侨聚集地——兴隆，晚间可自费欣赏老少皆宜的大型的异国风情歌舞【泰国红艺人表演】（停留时间150分钟）。</p>
+            </div>
+            <div class="day_img"> <img class="img_fl" src="images/datu4.jpg" width="320" height="240" title="黎村苗寨" /> <img class="img_fr"  src="images/datu.jpg" width="320" height="240"   title="黎村苗寨" /> </div>
+            <ul>
+              <li><b>用餐</b> 早餐：含 午餐：含 晚餐：含</li>
+              <li><b>住宿</b> 香港当地酒店标准间</li>
+            </ul>
+          </div>
+          <div class="day_con">
+            <div class="day_txt"> <b> <strong>第3天</strong> <span>香港</span> <i class="icon_plane"></i> </b> </div>
+            <div class="day_jinaj">
+              <p>全天自由活动。可根据自己的爱好自由前往所喜爱的地方，充分享受素有“动感之都、购物天堂”之称的香港所带给您的种种乐趣。或者乘地铁前往香港迪士尼乐园包括：美国小镇大街、反斗奇兵大本营、探险世界、幻想世界和明日世界。</p>
+            </div>
+            <ul>
+              <li><b>用餐</b> 早餐：敬请自理午餐：敬请自理 晚餐：敬请自理 </li>
+              <li><b>住宿</b> 香港当地酒店标准间</li>
+            </ul>
+          </div>
+          <div class="day_con">
+            <div class="day_txt"> <b> <strong>第4天</strong> <span>香港-澳门</span> <i class="icon_plane"></i> </b> </div>
+            <div class="day_jinaj">
+              <p>指定时间集合乘船赴澳门，游览澳门标志性建筑大三巴牌坊（约30分钟）、妈祖庙、观音像（约30分钟）、沿途欣赏海光山色的主教山（不下车）。莲花广场（约30分钟）前往融合了世界各地不同的建筑风格及中西文化特色的渔人码头（约20分钟）随意选购澳门手信礼品（停留约45分钟）后参观赌城特色的娱乐场（约60分钟）。</p>
+            </div>
+            <div class="day_img"> <img class="img_fl" src="images/datu4.jpg" width="320" height="240" title="黎村苗寨" /> <img class="img_fr"  src="images/datu.jpg" width="320" height="240"   title="黎村苗寨" /> </div>
+            <ul>
+              <li><b>用餐</b> 敬请自理 </li>
+              <li><b>住宿</b> 长城岭宾馆或运动员公寓</li>
+            </ul>
+          </div>
+          <div class="day_con">
+            <div class="day_txt"> <b> <strong>第5天</strong> <span>澳门/北京 参考航班：NX008(1930)</span> <i class="icon_plane"></i> <i class="icon_bus"></i> </b> </div>
+            <div class="day_jinaj">
+              <p>早餐后，根据回程航班班时间乘车前往澳门国际机场，您可在澳门机场内尽情选购各国免税商品，搭乘国际航班返回北京，结束愉快的旅程！</p>
+            </div>
+            <ul>
+              <li><b>用餐</b> 早餐：含 午餐：敬请自理 晚餐：敬请自理 </li>
+              <li><b>住宿</b> 温馨的家</li>
+            </ul>
+          </div>
+        </div>
+        <!--费用说明--> 
+        <i id="row_3" class="pkg-maodian">&nbsp;</i>
+        <h3 class="h3_tit"> <span>费用说明</span> </h3>
+        <div class="row statement_cost">
+          <dl>
+            <dt>费用包含</dt>
+            <dd>1、全程酒店住宿</dd>
+            <dd>2、往返国际机票</dd>
+            <dd>3、行程中标明团队用餐</dd>
+            <dd>4、空调旅游车</dd>
+            <dd>5、中文导游服务</dd>
+            <dd>6、行程所列景点首道门票（不含自费项目）</dd>
+          </dl>
+          <dl>
+            <dt>推荐项目</dt>
+            <dd>本产品不含旅游人身意外险,我们强烈建议游客购买。游客可在填写订单时勾选附加产品中的相关保险购买。</dd>
+            <dd>2、 司导小费200元/人</dd>
+            <dd>3、 出境旅游人身意外保险及航空保险（游客自愿购买）</dd>
+            <dd>4、 备注中所标注的自费项目</dd>
+            <dd>5、 全程单人房差</dd>
+            <dd>6、 《往来港澳通行证》及有效签注</dd>
+          </dl>
+          <dl>
+            <dt>费用不包含</dt>
+            <dd>1、 个人消费及人力无法抗拒因素导致的额外费用</dd>
+            <dd>2、 司导小费200元/人</dd>
+            <dd>3、 出境旅游人身意外保险及航空保险（游客自愿购买）</dd>
+            <dd>4、 备注中所标注的自费项目</dd>
+            <dd>5、 全程单人房差</dd>
+            <dd>6、 《往来港澳通行证》及有效签注</dd>
+            <dt>推荐项目</dt>
+            <dd>本产品不含旅游人身意外险,我们强烈建议游客购买。游客可在填写订单时勾选附加产品中的相关保险购买</dd>
+            <dt>购物说明</dt>
+            <dd>无</dd>
+          </dl>
+          <!--费非天天团，选择出团日期报名-->
+          <div class="infoquote" id="infoquote">
+            <p class="p4">
+              <label> 成人价格: <span>￥3500</span>
+                <input type="hidden" id="teamSignUpDate" value="/2012-12-18" />
+                <input name="startoffDate" id="startoffDate" type="text"  size="15"  onclick="event.cancelBubble=true;showCalendar('/2012-12-18','',this.id,false,this.id);" value="请选择日期" readonly="readonly" />
+                <img src="images/botton.png" onclick=" tourSignUpEveryDay()" width="98" height="28" /> </label>
+              <br>
+              <b>选择出团日期报名：(注：选择您合适的出团日期进行报名，日历表中日期颜色为红色的可点击进行报名</b> </p>
+            <!--日期选择器插件-->
+            <div id="showDateArea" style="display: block">
+              <table id="calTable" width="400px" height="250px">
+                <tr>
+                  <td colspan="7" align="center"><input type="button" value="<<" onClick="prevMonth()" title="上月"/>
+                    <span id="dateInfo" onclick="thisMonth()" title="本月"></span>
+                    <input type="button" value=">>" onClick="nextMonth()" title="下月"/>
+                    <span id="dateInfo"></span></td>
+                </tr>
+                <tr>
+                  <td class="day">星期日</td>
+                  <td class="day">星期一</td>
+                  <td class="day">星期二</td>
+                  <td class="day">星期三</td>
+                  <td class="day">星期四</td>
+                  <td class="day">星期五</td>
+                  <td class="day">星期六</td>
+                </tr>
+                <tr>
+                  <td class="calBox sun" id="calBox0"></td>
+                  <td class="calBox" id="calBox1"></td>
+                  <td class="calBox" id="calBox2"></td>
+                  <td class="calBox" id="calBox3"></td>
+                  <td class="calBox" id="calBox4"></td>
+                  <td class="calBox" id="calBox5"></td>
+                  <td class="calBox sat" id="calBox6"></td>
+                </tr>
+                <tr>
+                  <td class="calBox sun" id="calBox7"></td>
+                  <td class="calBox" id="calBox8"></td>
+                  <td class="calBox" id="calBox9"></td>
+                  <td class="calBox" id="calBox10"></td>
+                  <td class="calBox" id="calBox11"></td>
+                  <td class="calBox" id="calBox12"></td>
+                  <td class="calBox sat" id="calBox13"></td>
+                </tr>
+                <tr>
+                  <td class="calBox sun" id="calBox14"></td>
+                  <td class="calBox" id="calBox15"></td>
+                  <td class="calBox" id="calBox16"></td>
+                  <td class="calBox" id="calBox17"></td>
+                  <td class="calBox" id="calBox18"></td>
+                  <td class="calBox" id="calBox19"></td>
+                  <td class="calBox sat" id="calBox20"></td>
+                </tr>
+                <tr>
+                  <td class="calBox sun" id="calBox21"></td>
+                  <td class="calBox" id="calBox22"></td>
+                  <td class="calBox" id="calBox23"><div class="date date signUpDate" id="2012-12-18" onclick="openAddBox(this)" title="选择2012-12-18出团报名 "> <font color="#f00">18</font> </div></td>
+                  <td class="calBox" id="calBox24"></td>
+                  <td class="calBox" id="calBox25"></td>
+                  <td class="calBox" id="calBox26"></td>
+                  <td class="calBox sat" id="calBox27"></td>
+                </tr>
+                <tr>
+                  <td class="calBox sun" id="calBox28"></td>
+                  <td class="calBox" id="calBox29"></td>
+                  <td class="calBox" id="calBox30"></td>
+                  <td class="calBox" id="calBox31"></td>
+                  <td class="calBox" id="calBox32"></td>
+                  <td class="calBox" id="calBox33"></td>
+                  <td class="calBox sat" id="calBox34"></td>
+                </tr>
+                <tr>
+                  <td class="calBox sun" id="calBox35"></td>
+                  <td class="calBox" id="calBox36"></td>
+                  <td class="calBox" id="calBox37"></td>
+                  <td class="calBox" id="calBox38"></td>
+                  <td class="calBox" id="calBox39"></td>
+                  <td class="calBox" id="calBox40"></td>
+                  <td class="calBox sat" id="calBox41"></td>
+                </tr>
+              </table>
+            </div>
+            <!--报价项目-->
+            <tr>
+              <td colspan="3" class="tourinfocontent"><table class="BlueTable">
+                  <tr class="ItemTopTitle">
+                    <td width="15%">报价项目</td>
+                    <td width="15%">报价类型</td>
+                    <td width="12%">销售价</td>
+                    <td width="22%">报价说明</td>
+                  </tr>
+                  <tr>
+                    <td>团费</td>
+                    <td>基本价</td>
+                    <td>5400.0</td>
+                    <td style="text-align:left;">成人价格，两人一房</td>
+                  </tr>
+                  <tr>
+                    <td>补退款项</td>
+                    <td>报价2</td>
+                    <td>1400.0</td>
+                    <td style="text-align:left;">单房差</td>
+                  </tr>
+                  <tr>
+                    <td>团费</td>
+                    <td>报价1</td>
+                    <td>4200.0</td>
+                    <td style="text-align:left;">小童不占床</td>
+                  </tr>
+                </table>
+                </td>
+          </div>
+        </div>
+          <!--备注说明--> 
+          <i id="row_4" class="pkg-maodian">&nbsp;</i>
+          <h3 class="h3_tit"> <span>备注说明</span> </h3>
+          <div class="row important_prompt">
+            <dl>
+              <dt>行前须知</dt>
+              <dd>01、此价格针对大陆手持港澳通行证的公民，如外籍人士及持有其他证件者不享受上述价格；</dd>
+              <dd>02、本产品适用于持《往来港澳通行证》及香港个人旅游签注（G签注）或团队旅游签注（L签注）或探亲签注（T签注）或商务签注（S签注）的大陆居民及持前往香港有效证件的非大陆居民预订。请仔细核对您所获得的签注类型及其有效期，若因证件问题影响您的出行，我方不予承担相关责任；机票为团队机票，一经出票则不可退、改、签；</dd>
+              <dd>03、港澳酒店价格和房态浮动较大，具体价格请以当天客服人员的确认为准；航班为参考航班，具体行程以出团通知书为准。</dd>
+              <dd>04、预定成功后,酒店不接受任何形式的更改或退订要求；</dd>
+              <dd>05、大床房、高楼层等特殊要求，我处会尽量为您申请，但不能确保，请您在入住时跟酒店前台再次提及。</dd>
+              <dd>06、出团通知：出团通知最晚于出团前1发送，若能提前确定，我们将会第一时间通知您。</dd>
+              <dd>07、4个月以上的孕妇，香港海关有权拒绝放行，若产生损失，驴妈妈概不负责，请孕妇谨慎报名。</dd>
+              <dd>05、大床房、高楼层等特殊要求，我处会尽量为您申请，但不能确保，请您在入住时跟酒店前台再次提及。</dd>
+              <dd>06、出团通知：出团通知最晚于出团前1发送，若能提前确定，我们将会第一时间通知您。</dd>
+              <dd>07、4个月以上的孕妇，香港海关有权拒绝放行，若产生损失，驴妈妈概不负责，请孕妇谨慎报名。</dd>
+              <dd>05、大床房、高楼层等特殊要求，我处会尽量为您申请，但不能确保，请您在入住时跟酒店前台再次提及。</dd>
+              <dd>06、出团通知：出团通知最晚于出团前1发送，若能提前确定，我们将会第一时间通知您。</dd>
+              <dd>07、4个月以上的孕妇，香港海关有权拒绝放行，若产生损失，驴妈妈概不负责，请孕妇谨慎报名。</dd>
+            </dl>
+          </div>
+          <!--签证须知--> 
+          <i id="row_5" class="pkg-maodian">&nbsp;</i>
+          <h3 class="h3_tit"> <span>签证须知</span> </h3>
+          <div class="row statement_cost">
+            <dl>
+              <dd>港澳地区证件信息：自备《港澳往来通行证》及有效签注</dd>
+              <dd>本产品最晚截止收材料日期为：出发前5天</dd>
+            </dl>
+          </div>
+          <!--温馨提示--> 
+          <i id="row_6" class="pkg-maodian">&nbsp;</i>
+          <h3 class="h3_tit"> <span>温馨提示</span> </h3>
+          <div class="row  visa">
+            <dl>
+              <dt>预定须知</dt>
+              <dd>行程中所列航班号及时间仅供参考，将根据实际情况做出合理的调整，若有调整，我们会与您确认。</dd>
+              <dd>团队行程有领队负责所有的机票及护照，故出发前护照机票将不配送客人。</dd>
+              <dd>为了不耽误您的行程，请您在国际航班起飞前120分钟到达机场办理登机＆出入境相关手续。</dd>
+              <dd>境外的当天行程到酒店休息为止，客人若参加自费活动需由导游带领，客人私自外出发生一切意外均与旅行社无关。</dd>
+              <dd>行程中导游有任何违反合同之处，请游客坚决抵制，并及时反馈，争取将双方损失降至最低，若当时因协商不成而拒绝乘车、登机产生的一切损失均请游客自理；行程中无反馈，回程后投诉，无确实凭据（请填写完整《质量反馈表》），旅行社将不予受理。</dd>
+              <dd>旅游者参加西藏等高原地区旅游或风险旅游项目（包括但不限于：游泳、浮潜、冲浪、漂流等水上活动以及骑马、攀援、登山等高风险的活动）或患有不宜出行旅游的病情（包括但 不限于：恶性肿瘤、心血管病、高血压、呼吸系统疾病、癫痫、怀孕、精神疾病、身体残疾、糖尿病、传染性疾病、慢性疾病健康受损），须在报名前自行前往医疗机构体检后，确保自身身 体条件能够完成本次旅游活动，并提供体检报告副本；旅游者须保证提供的身体健康状况真实，如隐瞒由本人承担全部责任；旅游者系 70岁以上（含70岁）参加旅游,应有亲属同意， 非单人出行；旅行社已经给予旅游者出游安全提示（旅行社已经提示并劝阻，但如旅游者仍坚持参加旅游活动，由此造成任何人身意外及不良后果将由旅游者本人全部承担。</dd>
+            </dl>
+          </div>
+          <!--目的地指南--> 
+          <i id="row_7" class="pkg-maodian">&nbsp;</i>
+          <h3 class="h3_tit"> <span>目的地指南</span> </h3>
+          <div class="row dest_intelligence"> <img src="images/1310635572830_small.jpg" width="120" height="90" title="香港" />
+            <p>香港，世界著名的国际金融中心、贸易中心和自由港，被誉为“东方之珠”、“动感之都”。1997年7月1日，香港在接受英国管治一个半世纪后，终于回到祖国怀抱，成为中华人民共和国的特别行政区。</p>
+            <p>香港海洋公园是香港一个以海洋为主的大型主题公园，位于香港南区的黄竹坑，1977年1月10日落成启用。2007年，该园入场人次达490万，位列全球第16名，亚太区第5名。香港海洋公园分为3部分，分别为位于北面的山下花园，和南面的南朗山南麓及大树湾，占地共17公顷，有40多个游乐设施。山下花园与南朗山以登山缆车和海洋列车连接。而南朗山与大树湾之间，则以登山电梯连接，是全世界第2长的户外电动扶梯。</p>
+            <p>浅水湾号称"天下第一湾"，也有"东方夏威夷"之美誉,是香港最具代表性的沙滩。浅水湾在香港岛之南，依山傍海，海湾呈新月形，坡缓滩长，波平浪静，水清沙细，沙滩宽阔洁净而水浅，且冬暖夏凉，水温在十六摄氏度至二十七摄氏度之间，历来是港人消夏弄潮的胜地，也是游人必至的著名风景区。昔日，香江八景之一的"海国浮沉"，指的就是浅水湾的海滨浴场。</p>
+            <p>香港，世界著名的国际金融中心、贸易中心和自由港，被誉为“东方之珠”、“动感之都”。1997年7月1日，香港在接受英国管治一个半世纪后，终于回到祖国怀抱，成为中华人民共和国的特别行政区。</p>
+            <p>香港海洋公园是香港一个以海洋为主的大型主题公园，位于香港南区的黄竹坑，1977年1月10日落成启用。2007年，该园入场人次达490万，位列全球第16名，亚太区第5名。香港海洋公园分为3部分，分别为位于北面的山下花园，和南面的南朗山南麓及大树湾，占地共17公顷，有40多个游乐设施。山下花园与南朗山以登山缆车和海洋列车连接。而南朗山与大树湾之间，则以登山电梯连接，是全世界第2长的户外电动扶梯。</p>
+            <p>浅水湾号称"天下第一湾"，也有"东方夏威夷"之美誉,是香港最具代表性的沙滩。浅水湾在香港岛之南，依山傍海，海湾呈新月形，坡缓滩长，波平浪静，水清沙细，沙滩宽阔洁净而水浅，且冬暖夏凉，水温在十六摄氏度至二十七摄氏度之间，历来是港人消夏弄潮的胜地，也是游人必至的著名风景区。昔日，香江八景之一的"海国浮沉"，指的就是浅水湾的海滨浴场。</p>
+            <p>香港在地理上分为九龙、香港岛、新界（包括离岛）三个区域。九龙和港岛隔维多利亚港相望，两者的面积虽然只占整个香港的一小部分，却是香港最繁华的区域。在这个弹丸之地上，九龙的尖沙咀、… <a href="#">详细介绍 >></a></p>
+            <dl>
+              <dd>香港 香港海洋公园</dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+ </div>
+      <div class="hd2"> <a href="#" target="_blank"><img src="images/201208241352199859.jpg" width="1000px" height="88"  alt="张家界旅游" title="张家界旅游" /></a> </div>
+      <div class="ufooter">
+        <div class="ztlv">
+          <div class="yqtit"> <a href="#" target="_blank"> 友情链接：</a> </div>
+          <ul class="yqul">
+            <li style="height:16px; line-height:16px;"><a href="http://www.17u.com/" target="_blank" title="一起游"> 一起游</a></li>
+            <li style="height:16px; line-height:16px;"><a href="http://www.chinasspp.com/" target="_blank" title="时尚品牌网"> 时尚品牌网</a></li>
+            <li style="height:16px; line-height:16px;"><a href="http://www.keyunzhan.com" target="_blank" title="客运站"> 客运站</a></li>
+            <li style="height:16px; line-height:16px;"><a href="http://shanghai.anjuke.com/" target="_blank" title="上海房产网"> 上海房产网</a></li>
+            <li style="height:16px; line-height:16px;"><a href="http://ctsho.com" target="_blank" title="中旅"> 中旅</a></li>
+            <li style="height:16px; line-height:16px;"><a href="http://www.sunnychina.com/" target="_blank" title="阳光旅行网"> 阳光旅行网</a></li>
+            <li style="height:16px; line-height:16px;"><a href="http://www.huochepiao.com/" target="_blank" title="火车票网"> 火车票网</a></li>
+            <li style="height:16px; line-height:16px;"><a href="http://www.edushi.com/" target="_blank" title="e都市"> e都市</a></li>
+            <li style="height:16px; line-height:16px;"><a href="http://www.chunyun.cn/" target="_blank" title="春运"> 春运</a></li>
+            <li style="height:16px; line-height:16px;"><a href="http://www.lotour.com/" target="_blank" title="乐途旅游网"> 乐途旅游网</a></li>
+            <li style="height:16px; line-height:16px;"><a href="http://www.hudong.com/" target="_blank" title="互动百科"> 互动百科</a></li>
+            <li style="height:16px; line-height:16px;"><a href="http://www.mafengwo.cn/" target="_blank" title="蚂蜂窝旅游攻略"> 蚂蜂窝旅游攻略</a></li>
+            <li style="height:16px; line-height:16px;"><a href="http://www.huoche.net" target="_blank" title="火车时刻表"> 火车时刻表</a></li>
+            <li style="height:16px; line-height:16px;"><a href="http://travel.cn.yahoo.com/" target="_blank" title="雅虎旅游"> 雅虎旅游</a></li>
+            <li style="height:16px; line-height:16px;"><a href="http://www.uzai.com/comments/" target="_blank" title="悠哉点评"> 悠哉点评</a></li>
+            <li style="height:16px; line-height:16px;"><a href="http://www.egou.com" target="_blank" title="返利网"> 返利网</a></li>
+            <li style="height:16px; line-height:16px;"><a href="http://www.5yi.com/" target="_blank" title="我易网"> 我易网</a></li>
+            <li style="height:16px; line-height:16px;"><a href="http://www.onlylady.com/" target="_blank" title="OnlyLady女人志"> OnlyLady女人志</a></li>
+            <li style="height:16px; line-height:16px;"><a href="http://travel.huanqiu.com/" target="_blank" title="环球网旅游"> 环球网旅游</a></li>
+            <li style="height:16px; line-height:16px;"><a href="http://trip.elong.com/" target="_blank" title="艺龙旅游指南"> 艺龙旅游指南</a></li>
+            <li style="height:16px; line-height:16px;"><a href="http://www.lvmama.com" target="_blank" title="驴妈妈旅游网"> 驴妈妈旅游网</a></li>
+            <li style="height:16px; line-height:16px;"><a href="http://www.128uu.com" target="_blank" title="128旅行网"> 128旅行网</a></li>
+            <li style="height:16px; line-height:16px;"><a href="http://www.yododo.com/" target="_blank" title="游多多旅行网"> 游多多旅行网</a></li>
+            <li style="height:16px; line-height:16px;"><a href="http://www.51766.com/" target="_blank" title="51766旅游网"> 51766旅游网</a></li>
+            <li style="height:16px; line-height:16px;"><a href="http://www.17u.net/" target="_blank" title="中国旅游交易网"> 中国旅游交易网</a></li>
+            <li style="height:16px; line-height:16px;"><a href="http://www.becod.com/" target="_blank" title="百酷特价酒店"> 百酷特价酒店</a></li>
+            <li style="height:16px; line-height:16px;"><a href="http://hotel.kuxun.cn/" target="_blank" title="酒店预订"> 酒店预订</a></li>
+            <li style="height:16px; line-height:16px;"><a href="http://ent.joy.cn/" target="_blank" title="激动网娱乐"> 激动网娱乐</a></li>
+            <li style="height:16px; line-height:16px;"><a href="http://www.mipang.com/" target="_blank" title="米胖旅游网"> 米胖旅游网</a></li>
+            <li style="height:16px; line-height:16px;"><a href="http://www.17u.cn/" target="_blank" title="同程网"> 同程网</a></li>
+            <li style="height:16px; line-height:16px;"><a href="http://travel.ifeng.com/" target="_blank" title="凤凰网旅游"> 凤凰网旅游</a></li>
+            <li style="height:16px; line-height:16px;"><a href="http://www.htinns.com/" target="_blank" title="酒店预订网"> 酒店预订网</a></li>
+            <li style="height:16px; line-height:16px;"><a href="http://www.aibang.com/" target="_blank" title="爱帮公交网"> 爱帮公交网</a></li>
+            <li style="height:16px; line-height:16px;"><a href="http://www.zhuna.cn" target="_blank" title="住哪网"> 住哪网</a></li>
+            <li style="height:16px; line-height:16px;"><a href="http://www.laidingba.com/" target="_blank" title="来订吧"> 来订吧</a></li>
+            <li style="height:16px; line-height:16px;"><a href="http://www.gaotie.cn" target="_blank" title="高铁网"> 高铁网</a></li>
+            <li style="height:16px; line-height:16px;"><a href="http://travel.people.com.cn" target="_blank" title="人民网旅游"> 人民网旅游</a></li>
+            <li style="height:16px; line-height:16px;"><a href="http://www.bitauto.com/" target="_blank" title="汽车"> 汽车</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="cl"></div>
+      <div class="footer_copy">
+        <p id="TN-24">24小时旅游预订电话(免长途费)：400-580-819   假期国旅呼叫中心位于北京来电将统一显示为 025-8888888888</p>
+        <p id="TN-links"> <a rel="nofollow" target="_blank" href="#">关于我们</a> <a rel="nofollow" target="_blank" href="#">联系我们</a> <a rel="nofollow" target="_blank" href="#l">投诉建议</a> <a target="_blank" href="#" rel="nofollow">广告服务</a
+                                         ><a target="_blank" href="#" rel="nofollow">旅游券</a> <a target="_blank" href="#" rel="nofollow">诚聘英才</a> <a rel="nofollow" target="_blank" href="#">隐私保护</a> <a rel="nofollow" target="_blank" href="#">免责声明</a> <a target="_blank" href="#" rel="nofollow">旅游度假资质</a> <a rel="nofollow" target="_blank" href="#">用户协议</a> <a target="_blank" href="#">网站地图</a> <a target="_blank" href="#" rel="nofollow">团队博客</a> <a target="_blank" href="#" rel="nofollow">网站联盟</a> <a href="#" target="_blank" rel="nofollow">UEIP</a> <a target="_blank" href="#/" rel="nofollow">帮助中心</a></p>
+        <p id="copyright">Copyright &copy; 2009-2012 <a href="#" rel="nofollow">假期国旅网</a> <a href="#" rel="nofollow">YoYotrip.com</a> | <a rel="nofollow" href="#" target="_blank">营业执照</a> | <a rel="nofollow" href="#/" target="_blank">京ICP备09053170号</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

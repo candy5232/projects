@@ -1,0 +1,404 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>自由行_旅游网_出境游_国内游_自助游 - 假期国旅网_yoyotrip.com</title>
+<meta name="keywords" content="旅游，旅游网，自助游，跟团游，公司旅游">
+<meta name="description" content="假期国旅网-中国最专业全面的旅游线路和自助游一站式旅游服务提供商,客户满意度94%;提供自助游,周边旅游,国内旅游,出境旅游。实时发团日期,报价,行程,全程优质的服务保障">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/freewalkerlist.css" />
+<script type="text/javascript" src="js/jquery1.8.js"></script>
+<script type="text/javascript" src="js/global.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+<div style="text-align:center ; width:1000px; margin:0 auto;height:88px;"> <a href="#" target="_blank"><img src="images/guanggao1.jpg" /></a> </div>
+<!--Logo 广告 登陆 注册 电话  微博  开始-->
+<div class="header_wrap clearfix">
+  <div class="logo">
+    <h1><a href="#"><img src="images/logo.gif" width="237" height="93" title="假期国旅网" alt="假期国旅网" /></a></h1>
+  </div>
+  <div class="he_ad"> <a href="#"><img src="images/guanggao2.jpg" width="285" height="75" /></a> </div>
+  <div class="hd_tel"><a href="#"><img src="images/dianhua.gif" width="221" height="80" /></a></div>
+  <div class="top-hd">
+    <div class="top-user">
+      <div class="login_txt"> <span class="s-1"> <a title="登录"  target="_blank" href="#">登录</a> </span> <i>|</i> <span class="s-2"> <a title="注册" target="_blank" href="#">注册</a></span> </div>
+      <!--快速登录-->
+      <div class="outer_sites">
+        <label>快速登录</label>
+        <div class="sites_box" id="sitesBox"> <a href="#" id="sinaLink" class="sina_ico" title="新浪微博帐号登录"></a> <a href="#" id="tweiboLink" class="tweibo_ico" title="腾讯微博帐号登录"></a> <a href="#" id="renrenLink" class="renren_ico" title="人人登录"></a> <a href="#" id="wangyiLink" class="wangyi_ico" title="网易微博登录"></a> </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Logo 广告 登陆 注册  电话  微博 结束--> 
+<!--导航 开始-->
+<div class="nav">
+  <div class="nav_main">
+    <ul class="nav_list">
+      <li><a href="#"  rel="nofollow">首页</a></li>
+      <li><a href="#"  title="牛人专线" rel="nofollow" ><span>出境旅游</span></a></li>
+      <li><a href="#" rel="nofollow"><span>国内旅游</span><span class="tejia">特价</span></a></li>
+      <li><a href="#" class="cur_nav" ><span>自由行</span><span class="fanxian">返现</span></a></li>
+      <li><a href="#" rel="nofollow">邮轮</a></li>
+      <li><a href="#" rel="nofollow">海岛</a></li>
+      <li><a href="#" rel="nofollow">签证</a></li>
+      <li><a href="#" rel="nofollow"><span>景点</span><span class="temai">热卖</span></a></li>
+    </ul>
+  </div>
+</div>
+<!--导航结束--> 
+<!-- 头部 开始-->
+<div id="box"> 
+  <!--第一栏目 开始 -->
+  <div class="div">
+    <div class="part1 bord shadow fl">
+      <div class="search"> <span>自由行</span> </div>
+      <ul class="list1">
+        <li class="country_box">
+          <input type="radio" checked="checked" name="FLY_Internal" value="0">
+          国内<span>
+          <input type="radio" name="FLY_Internal" value="1">
+          国际</span></li>
+        <li><span>目的地：</span>
+          <input type="text" value="" maxlength="20"
+                              class="i_city" name="tourQueryDto.sceneryName" id="tour_scenery_name" datacheck="">
+          <input type="hidden" name="tourQueryDto.sceneryId" id="tour_scenery_value" value="-1">
+        </li>
+        <li class="flight_type2">天  数：
+          <select id="InternalTR">
+            <option value="0" >所有</option>
+            <option value="3" >3天以内</option>
+            <option value="5" >5天以内</option>
+            <option value="7" >7天以内</option>
+            <option value="15" >15天以内</option>
+          </select>
+        </li>
+      </ul>
+      <div class="searchbtnbox">
+        <input class="searchbtn" id="btnSearch" method="btnSearch" type="button" onfocus="this.blur()" />
+      </div>
+    </div>
+    <!--首页面包屑-->
+    <div class="traverl fr">
+      <div class="traverl_top">
+        <div class="traverl_top_bg">
+          <div class="fbcurrent"> <a href="#">首页</a> <span>></span> <a href="#">出境游</a> <span>></span> 旅游路线 </div>
+          <div class="traverl_credit"> <img src="images/trackers.png" width="611" height="91" alt style="display:block;" /> <a href="#"  class="credit_link select"  target="_blank"  rel=" nofollow"></a> <a href="#"  class="credit_link examine"  target="_blank"  rel=" nofollow"></a> <a href="#"  class="credit_link write"  target="_blank"  rel=" nofollow"></a> <a href="#"  class="credit_link subscribe"  target="_blank"  rel=" nofollow"></a> </div>
+        </div>
+      </div>
+    </div>
+    <!--第一栏目 结束--> 
+    <!--第二栏目 左侧 开始-->
+    <div class="div">
+      <div class="paft2_left">
+        <div class="phb1 xtbox shadow  fl "> 
+          <!--出境游目的地 版块开始-->
+          <div class="phpos phtop"> <b>出境游目的地</b></div>
+          <div class="phbtop"></div>
+          <div class="phbcont">
+            <dl>
+              <dt><a href="#">欧洲</a></dt>
+              <dd><a href="#">阿尔巴尼亚</a></dd>
+              <dd><a href="#">巴拿马</a></dd>
+              <dd><a href="#">罗马尼亚</a></dd>
+              <dd><a href="#">拉脱维亚</a></dd>
+              <dd><a href="#">爱沙尼亚</a></dd>
+              <dd><a href="#">巴哈马</a></dd>
+              <dd><a href="#">白俄罗斯</a></dd>
+              <dd><a href="#">保加利亚</a></dd>
+              <dd><a href="#">格鲁吉亚</a></dd>
+              <dd><a href="#">阿雅达岛哈库</a></dd>
+              <dd><a href="#">摩尔多瓦</a></dd>
+              <dd><a href="#">保加利亚</a></dd>
+              <dd><a href="#">格鲁吉亚</a></dd>
+              <dd><a href="#">摩尔多瓦</a></dd>
+              <dd><a href="#">拉岛双鱼岛</a></dd>
+            </dl>
+            <dl>
+              <dt><a href="#">非洲</a></dt>
+              <dd><a href="#">博茨瓦纳</a></dd>
+              <dd><a href="#">厄立特里亚</a></dd>
+              <dd><a href="#">佛得角</a></dd>
+              <dd><a href="#">科特迪瓦</a></dd>
+              <dd><a href="#">利比亚</a></dd>
+              <dd><a href="#">毛里塔尼亚</a></dd>
+              <dd><a href="#">莫桑比克</a></dd>
+              <dd><a href="#">尼日利亚</a></dd>
+              <dd><a href="#">阿尔及利亚</a></dd>
+              <dd><a href="#">赞比亚</a></dd>
+              <dd><a href="#">摩尔多瓦</a></dd>
+              <dd><a href="#">保加利亚</a></dd>
+              <dd><a href="#">格鲁吉亚</a></dd>
+              <dd><a href="#">摩尔多瓦</a></dd>
+              <dd><a href="#">拉岛双鱼岛</a></dd>
+              <dd><a href="#">美露丽芙岛</a></dd>
+              <dd><a href="#">摩尔多瓦</a></dd>
+              <dd><a href="#">库拉玛提岛</a></dd>
+              <dd><a href="#">格鲁吉亚</a></dd>
+              <dd><a href="#">罗宾逊岛</a></dd>
+              <dd><a href="#">捷克共和国</a></dd>
+            </dl>
+            <dl>
+              <dt><a href="#">大洋洲</a></dt>
+              <dd><a href="#">卡特尔</a></dd>
+              <dd><a href="#">伊拉克</a></dd>
+              <dd><a href="#">帕劳</a></dd>
+              <dd><a href="#">阿富汗</a></dd>
+              <dd><a href="#">阿曼</a></dd>
+              <dd><a href="#">厄瓜多尔 孟加拉国</a></dd>
+              <dd><a href="#">莫桑比克</a></dd>
+              <dd><a href="#">尼日利亚</a></dd>
+              <dd><a href="#">阿尔及利亚</dd>
+              <dd><a href="#">赞比亚</dd>
+              <dd><a href="#">摩尔多瓦</dd>
+              <dd><a href="#">巴勒斯坦</a></dd>
+              <dd><a href="#">格鲁吉亚</a></dd>
+              <dd><a href="#">摩尔多瓦</a></dd>
+              <dd><a href="#">拉岛双鱼岛</a></dd>
+              <dd><a href="#">美露丽芙岛</a></dd>
+              <dd><a href="#">摩尔多瓦</a></dd>
+              <dd><a href="#">库拉玛提岛</a></dd>
+              <dd><a href="#">格鲁吉亚</a></dd>
+              <dd><a href="#">罗宾逊岛</a></dd>
+              <dd><a href="#">捷克共和国</a></dd>
+            </dl>
+            <dl>
+              <dt><a href="#">亚洲</a></dt>
+              <dd><a href="#">博茨瓦纳</a></dd>
+              <dd><a href="#">厄立特里亚</a></dd>
+              <dd><a href="#">佛得角</a></dd>
+              <dd><a href="#">科特迪瓦</a></dd>
+              <dd><a href="#">利比亚</a></dd>
+              <dd><a href="#">毛里塔尼亚</a></dd>
+              <dd><a href="#">莫桑比克</a></dd>
+              <dd><a href="#">尼日利亚</a></dd>
+              <dd><a href="#">阿尔及利亚</a></dd>
+              <dd><a href="#">赞比亚</a></dd>
+              <dd><a href="#">摩尔多瓦</a></dd>
+              <dd><a href="#">保加利亚</a></dd>
+              <dd><a href="#">格鲁吉亚</a></dd>
+              <dd><a href="#">摩尔多瓦</a></dd>
+              <dd><a href="#">拉岛双鱼岛</a></dd>
+              <dd><a href="#">美露丽芙岛</a></dd>
+              <dd><a href="#">拉岛双鱼岛</a></dd>
+              <dd><a href="#">美露丽芙岛</a></dd>
+            </dl>
+            <div class="phbbot"></div>
+          </div>
+        </div>
+        <!--国内游目的地-->
+        <div class="phb1 xtbox shadow fl "> 
+          <!--出境游目的地 版块开始-->
+          <div class="phpos phtop"> <b>国内游目的地</b></div>
+          <div class="phbtop"></div>
+          <div class="phbcont">
+            <dl>
+              <dt><a href="#">西南</a></dt>
+              <dd><a href="#">贵州</a></dd>
+              <dd><a href="#">四川</a></dd>
+              <dd><a href="#">西藏</a></dd>
+              <dd><a href="#">云南</a></dd>
+              <dd><a href="#">重庆</a></dd>
+            </dl>
+            <dl>
+              <dt><a href="#">华东</a></dt>
+              <dd><a href="#">安徽</a></dd>
+              <dd><a href="#">福建</a></dd>
+              <dd><a href="#">江苏</a></dd>
+              <dd><a href="#">江西</a></dd>
+              <dd><a href="#">山东</a></dd>
+              <dd><a href="#">上海</a></dd>
+              <dd><a href="#">浙江</a></dd>
+            </dl>
+            <dl>
+              <dt><a href="#">华北</a></dt>
+              <dd><a href="#">北京</a></dd>
+              <dd><a href="#">河北</a></dd>
+              <dd><a href="#">内蒙古</a></dd>
+              <dd><a href="#">山西</a></dd>
+              <dd><a href="#">天津</a></dd>
+            </dl>
+            <dl>
+              <dt><a href="#">西北</a></dt>
+              <dd><a href="#">甘肃</a></dd>
+              <dd><a href="#">宁夏</a></dd>
+              <dd><a href="#">青海</a></dd>
+              <dd><a href="#">陕西</a></dd>
+              <dd><a href="#">新疆</a></dd>
+            </dl>
+            <div class="phbbot"></div>
+          </div>
+        </div>
+        <!--第二栏目 左侧 开始-->
+        <div class="hd1"> <a href="#" target="_blank" title="广告" alt="广告"><img src="images/201211061528423964.jpg" width="222" height="128" /></a></div>
+      </div>
+      <div class="part6  fr">
+        <div  class="fast_border">
+          <h2 class="fast_tit">旅游路线</h2>
+          <div class="list14_box">
+            <div class="list_img"> <a href="#" title="【圣诞】香港皇悦系列酒店3晚4日自助游"><img src="images/img.jpg" width="208" height="138" /></a> </div>
+            <div class="hotlist"> <a href="#" target="_blank" class="blue f16 fw">【圣诞】香港皇悦系列酒店3晚4日自助游</a> </div>
+            <div class="niu_pic"><img src="images/promo_ico_remai.gif" /></div>
+            <p class="hotlist_txt"> 1.精彩美景：故宫、101大楼、中台禅寺、日月潭、阿里山、垦丁、太鲁阁、知本温泉、花东海岸、宜兰等 <br >
+              2.纵观历史：邂逅台湾大街小巷，阅读尘封历史。 <br >
+              3.饕餮美食：食全食美台湾风味，初春时节添口福。 <br >
+              4.泡汤乐趣：寻觅隐秘温泉，体验美丽健康。 </p>
+            <div class="fr hotlist_price"> <dfn>¥</dfn><strong>4568</strong>起 </div>
+            <div class="book">
+              <p class="book_txt"><a href="#">查看详细</a></p>
+            </div>
+          </div>
+          <div class="topic_line"></div>
+          <div class="list14_box">
+            <div class="list_img"> <a href="#" title="【圣诞】香港皇悦系列酒店3晚4日自助游"><img src="images/img.jpg" width="208" height="138" /></a> </div>
+            <div class="hotlist"> <a href="#" target="_blank" class="blue f16 fw">【圣诞】香港皇悦系列酒店3晚4日自助游</a> </div>
+            <div class="niu_pic"><img src="images/promo_ico_tejia.gif" /></div>
+            <p class="hotlist_txt"> 1.精彩美景：故宫、101大楼、中台禅寺、日月潭、阿里山、垦丁、太鲁阁、知本温泉、花东海岸、宜兰等 <br >
+              2.纵观历史：邂逅台湾大街小巷，阅读尘封历史。 <br >
+              3.饕餮美食：食全食美台湾风味，初春时节添口福。 <br >
+              4.泡汤乐趣：寻觅隐秘温泉，体验美丽健康。 </p>
+            <div class="fr hotlist_price"> <dfn>¥</dfn><strong>4568</strong>起 </div>
+            <div class="book">
+              <p class="book_txt"><a href="#">查看详细</a></p>
+            </div>
+          </div>
+          <div class="topic_line"></div>
+          <div class="list14_box">
+            <div class="list_img"> <a href="#" title="【圣诞】香港皇悦系列酒店3晚4日自助游"><img src="images/img.jpg" width="208" height="138" /></a> </div>
+            <div class="hotlist"> <a href="#" target="_blank" class="blue f16 fw">【圣诞】香港皇悦系列酒店3晚4日自助游</a> </div>
+            <div class="niu_pic"><img src="images/promo_ico_remai.gif" /></div>
+            <p class="hotlist_txt"> 1.精彩美景：故宫、101大楼、中台禅寺、日月潭、阿里山、垦丁、太鲁阁、知本温泉、花东海岸、宜兰等 <br >
+              2.纵观历史：邂逅台湾大街小巷，阅读尘封历史。 <br >
+              3.饕餮美食：食全食美台湾风味，初春时节添口福。 <br >
+              4.泡汤乐趣：寻觅隐秘温泉，体验美丽健康。 </p>
+            <div class="fr hotlist_price"> <dfn>¥</dfn><strong>4568</strong>起 </div>
+            <div class="book">
+              <p class="book_txt"><a href="#">查看详细</a></p>
+            </div>
+          </div>
+          <div class="topic_line"></div>
+          <div class="list14_box">
+            <div class="list_img"> <a href="#" title="【圣诞】香港皇悦系列酒店3晚4日自助游"><img src="images/img.jpg" width="208" height="138" /></a> </div>
+            <div class="hotlist"> <a href="#" target="_blank" class="blue f16 fw">【圣诞】香港皇悦系列酒店3晚4日自助游</a> </div>
+            <div class="niu_pic"><img src="images/promo_ico_tejia.gif" /></div>
+            <p class="hotlist_txt"> 1.精彩美景：故宫、101大楼、中台禅寺、日月潭、阿里山、垦丁、太鲁阁、知本温泉、花东海岸、宜兰等 <br >
+              2.纵观历史：邂逅台湾大街小巷，阅读尘封历史。 <br >
+              3.饕餮美食：食全食美台湾风味，初春时节添口福。 <br >
+              4.泡汤乐趣：寻觅隐秘温泉，体验美丽健康。 </p>
+            <div class="fr hotlist_price"> <dfn>¥</dfn><strong>4568</strong>起 </div>
+            <div class="book">
+              <p class="book_txt"><a href="#">查看详细</a></p>
+            </div>
+          </div>
+          <div class="topic_line"></div>
+          <div class="list14_box">
+            <div class="list_img"> <a href="#" title="【圣诞】香港皇悦系列酒店3晚4日自助游"><img src="images/img.jpg" width="208" height="138" /></a> </div>
+            <div class="hotlist"> <a href="#" target="_blank" class="blue f16 fw">【圣诞】香港皇悦系列酒店3晚4日自助游</a> </div>
+            <div class="niu_pic"><img src="images/promo_ico_tuijian.gif" /></div>
+            <p class="hotlist_txt"> 1.精彩美景：故宫、101大楼、中台禅寺、日月潭、阿里山、垦丁、太鲁阁、知本温泉、花东海岸、宜兰等 <br >
+              2.纵观历史：邂逅台湾大街小巷，阅读尘封历史。 <br >
+              3.饕餮美食：食全食美台湾风味，初春时节添口福。 <br >
+              4.泡汤乐趣：寻觅隐秘温泉，体验美丽健康。 </p>
+            <div class="fr hotlist_price"> <dfn>¥</dfn><strong>4568</strong>起 </div>
+            <div class="book">
+              <p class="book_txt"><a href="#">查看详细</a></p>
+            </div>
+          </div>
+          <div class="topic_line"></div>
+          <div class="list14_box">
+            <div class="list_img"> <a href="#" title="【圣诞】香港皇悦系列酒店3晚4日自助游"><img src="images/img.jpg" width="208" height="138" /></a> </div>
+            <div class="hotlist"> <a href="#" target="_blank" class="blue f16 fw">【圣诞】香港皇悦系列酒店3晚4日自助游</a> </div>
+            <div class="niu_pic"><img src="images/promo_ico_remai.gif" /></div>
+            <p class="hotlist_txt"> 1.精彩美景：故宫、101大楼、中台禅寺、日月潭、阿里山、垦丁、太鲁阁、知本温泉、花东海岸、宜兰等 <br >
+              2.纵观历史：邂逅台湾大街小巷，阅读尘封历史。 <br >
+              3.饕餮美食：食全食美台湾风味，初春时节添口福。 <br >
+              4.泡汤乐趣：寻觅隐秘温泉，体验美丽健康。 </p>
+            <div class="fr hotlist_price"> <dfn>¥</dfn><strong>4568</strong>起 </div>
+            <div class="book">
+              <p class="book_txt"><a href="#">查看详细</a></p>
+            </div>
+          </div>
+          <div class="topic_line"></div>
+          <div class="list14_box">
+            <div class="list_img"> <a href="#" title="【圣诞】香港皇悦系列酒店3晚4日自助游"><img src="images/img.jpg" width="208" height="138" /></a> </div>
+            <div class="hotlist"> <a href="#" target="_blank" class="blue f16 fw">【圣诞】香港皇悦系列酒店3晚4日自助游</a> </div>
+            <div class="niu_pic"><img src="images/promo_ico_tejia.gif" /></div>
+            <p class="hotlist_txt"> 1.精彩美景：故宫、101大楼、中台禅寺、日月潭、阿里山、垦丁、太鲁阁、知本温泉、花东海岸、宜兰等 <br >
+              2.纵观历史：邂逅台湾大街小巷，阅读尘封历史。 <br >
+              3.饕餮美食：食全食美台湾风味，初春时节添口福。 <br >
+              4.泡汤乐趣：寻觅隐秘温泉，体验美丽健康。 </p>
+            <div class="fr hotlist_price"> <dfn>¥</dfn><strong>4568</strong>起 </div>
+            <div class="book">
+              <p class="book_txt"><a href="#">查看详细</a></p>
+            </div>
+          </div>
+          <div class="topic_line"></div>
+          <div class="page"> <span id="pe100_page_通用信息列表_旅游" class="pagecss">
+            <div id="more">
+              <div class="black2"> <a href="#">首页</a> <a href="#">上一页</a> <span><strong>1</strong></span> <a href="#">2</a> <a href="#">3</a> <a href="#">下一页</a> <a href="#">尾页</a> </div>
+            </div>
+            </span> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="cl"></div>
+  <div class="hd2"> <a href="#" target="_blank"><img src="images/201208241352199859.jpg" width="1000px" height="88"  alt="张家界旅游" title="张家界旅游" /></a> </div>
+  <div class="ufooter">
+    <div class="ztlv">
+      <div class="yqtit"> <a href="#" target="_blank"> 友情链接：</a> </div>
+      <ul class="yqul">
+        <li style="height:16px; line-height:16px;"><a href="http://www.17u.com/" target="_blank" title="一起游"> 一起游</a></li>
+        <li style="height:16px; line-height:16px;"><a href="http://www.chinasspp.com/" target="_blank" title="时尚品牌网"> 时尚品牌网</a></li>
+        <li style="height:16px; line-height:16px;"><a href="http://www.keyunzhan.com" target="_blank" title="客运站"> 客运站</a></li>
+        <li style="height:16px; line-height:16px;"><a href="http://shanghai.anjuke.com/" target="_blank" title="上海房产网"> 上海房产网</a></li>
+        <li style="height:16px; line-height:16px;"><a href="http://ctsho.com" target="_blank" title="中旅"> 中旅</a></li>
+        <li style="height:16px; line-height:16px;"><a href="http://www.sunnychina.com/" target="_blank" title="阳光旅行网"> 阳光旅行网</a></li>
+        <li style="height:16px; line-height:16px;"><a href="http://www.huochepiao.com/" target="_blank" title="火车票网"> 火车票网</a></li>
+        <li style="height:16px; line-height:16px;"><a href="http://www.edushi.com/" target="_blank" title="e都市"> e都市</a></li>
+        <li style="height:16px; line-height:16px;"><a href="http://www.chunyun.cn/" target="_blank" title="春运"> 春运</a></li>
+        <li style="height:16px; line-height:16px;"><a href="http://www.lotour.com/" target="_blank" title="乐途旅游网"> 乐途旅游网</a></li>
+        <li style="height:16px; line-height:16px;"><a href="http://www.hudong.com/" target="_blank" title="互动百科"> 互动百科</a></li>
+        <li style="height:16px; line-height:16px;"><a href="http://www.mafengwo.cn/" target="_blank" title="蚂蜂窝旅游攻略"> 蚂蜂窝旅游攻略</a></li>
+        <li style="height:16px; line-height:16px;"><a href="http://www.huoche.net" target="_blank" title="火车时刻表"> 火车时刻表</a></li>
+        <li style="height:16px; line-height:16px;"><a href="http://travel.cn.yahoo.com/" target="_blank" title="雅虎旅游"> 雅虎旅游</a></li>
+        <li style="height:16px; line-height:16px;"><a href="http://www.uzai.com/comments/" target="_blank" title="悠哉点评"> 悠哉点评</a></li>
+        <li style="height:16px; line-height:16px;"><a href="http://www.egou.com" target="_blank" title="返利网"> 返利网</a></li>
+        <li style="height:16px; line-height:16px;"><a href="http://www.5yi.com/" target="_blank" title="我易网"> 我易网</a></li>
+        <li style="height:16px; line-height:16px;"><a href="http://www.onlylady.com/" target="_blank" title="OnlyLady女人志"> OnlyLady女人志</a></li>
+        <li style="height:16px; line-height:16px;"><a href="http://travel.huanqiu.com/" target="_blank" title="环球网旅游"> 环球网旅游</a></li>
+        <li style="height:16px; line-height:16px;"><a href="http://trip.elong.com/" target="_blank" title="艺龙旅游指南"> 艺龙旅游指南</a></li>
+        <li style="height:16px; line-height:16px;"><a href="http://www.lvmama.com" target="_blank" title="驴妈妈旅游网"> 驴妈妈旅游网</a></li>
+        <li style="height:16px; line-height:16px;"><a href="http://www.128uu.com" target="_blank" title="128旅行网"> 128旅行网</a></li>
+        <li style="height:16px; line-height:16px;"><a href="http://www.yododo.com/" target="_blank" title="游多多旅行网"> 游多多旅行网</a></li>
+        <li style="height:16px; line-height:16px;"><a href="http://www.51766.com/" target="_blank" title="51766旅游网"> 51766旅游网</a></li>
+        <li style="height:16px; line-height:16px;"><a href="http://www.17u.net/" target="_blank" title="中国旅游交易网"> 中国旅游交易网</a></li>
+        <li style="height:16px; line-height:16px;"><a href="http://www.becod.com/" target="_blank" title="百酷特价酒店"> 百酷特价酒店</a></li>
+        <li style="height:16px; line-height:16px;"><a href="http://hotel.kuxun.cn/" target="_blank" title="酒店预订"> 酒店预订</a></li>
+        <li style="height:16px; line-height:16px;"><a href="http://ent.joy.cn/" target="_blank" title="激动网娱乐"> 激动网娱乐</a></li>
+        <li style="height:16px; line-height:16px;"><a href="http://www.mipang.com/" target="_blank" title="米胖旅游网"> 米胖旅游网</a></li>
+        <li style="height:16px; line-height:16px;"><a href="http://www.17u.cn/" target="_blank" title="同程网"> 同程网</a></li>
+        <li style="height:16px; line-height:16px;"><a href="http://travel.ifeng.com/" target="_blank" title="凤凰网旅游"> 凤凰网旅游</a></li>
+        <li style="height:16px; line-height:16px;"><a href="http://www.htinns.com/" target="_blank" title="酒店预订网"> 酒店预订网</a></li>
+        <li style="height:16px; line-height:16px;"><a href="http://www.aibang.com/" target="_blank" title="爱帮公交网"> 爱帮公交网</a></li>
+        <li style="height:16px; line-height:16px;"><a href="http://www.zhuna.cn" target="_blank" title="住哪网"> 住哪网</a></li>
+        <li style="height:16px; line-height:16px;"><a href="http://www.laidingba.com/" target="_blank" title="来订吧"> 来订吧</a></li>
+        <li style="height:16px; line-height:16px;"><a href="http://www.gaotie.cn" target="_blank" title="高铁网"> 高铁网</a></li>
+        <li style="height:16px; line-height:16px;"><a href="http://travel.people.com.cn" target="_blank" title="人民网旅游"> 人民网旅游</a></li>
+        <li style="height:16px; line-height:16px;"><a href="http://www.bitauto.com/" target="_blank" title="汽车"> 汽车</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="cl"></div>
+  <div class="footer_copy">
+    <p id="TN-24">24小时旅游预订电话(免长途费)：400-580-819   假期国旅呼叫中心位于北京来电将统一显示为 025-8888888888</p>
+    <p id="TN-links"> <a rel="nofollow" target="_blank" href="#">关于我们</a> <a rel="nofollow" target="_blank" href="#">联系我们</a> <a rel="nofollow" target="_blank" href="#l">投诉建议</a> <a target="_blank" href="#" rel="nofollow">广告服务</a
+                                         ><a target="_blank" href="#" rel="nofollow">旅游券</a> <a target="_blank" href="#" rel="nofollow">诚聘英才</a> <a rel="nofollow" target="_blank" href="#">隐私保护</a> <a rel="nofollow" target="_blank" href="#">免责声明</a> <a target="_blank" href="#" rel="nofollow">旅游度假资质</a> <a rel="nofollow" target="_blank" href="#">用户协议</a> <a target="_blank" href="#">网站地图</a> <a target="_blank" href="#" rel="nofollow">团队博客</a> <a target="_blank" href="#" rel="nofollow">网站联盟</a> <a href="#" target="_blank" rel="nofollow">UEIP</a> <a target="_blank" href="#/" rel="nofollow">帮助中心</a></p>
+    <p id="copyright">Copyright &copy; 2006-2012 <a href="#" rel="nofollow">假期国旅网</a> <a href="#" rel="nofollow">YoYotrip.com</a> | <a rel="nofollow" href="#" target="_blank">营业执照</a> | <a rel="nofollow" href="#/" target="_blank">苏ICP证B2-20070191</a></p>
+  </div>
+</div>
+</div>
+</body>
+</html>
