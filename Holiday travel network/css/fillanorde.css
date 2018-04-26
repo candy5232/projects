@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+**   代码制作人：candy
+**   制作时间  ：2012.12.01
+**   文件内容描述：网页主要框架样式
+**   涉及区域(1)：页面头部样式
+**   涉及区域(2)：页面主要加面包屑，旅游路线内容样式
+**   涉及区域(3)：页脚样式
+************************************************* /
+
+
+/*首页面包屑*/
+
+.traverl_credit{width: 599px;margin: 0 auto;padding: 10px 0;position: relative;}
+.traverl_top {border-bottom: 1px solid #fff;}
+.traverl_top_bg {border-bottom: 1px solid #ccc;}
+.traverl_credit a.mostmall {left: 0;}
+.traverl_credit a.examine{left:166px;}
+.traverl_credit a.write{left:335px;}
+.traverl_credit a.subscribe{left:510px;}
+.traverl_credit  a.credit_link{width:108px; height:91px;top: 15px;background: #fff;opacity: 0;filter: alpha(opacity=0);position:absolute;}
+ .bookinfoouter{ margin:0 auto;border: 1px solid #ffd1a3;overflow: hidden;width:750px; background: #fffbef; margin-bottom:20px;}
+.size14lancu, a.size14lancu {font-size: 12px;color: #f60;font-weight: bolder;line-height: 22px; padding-left:7px;}
+
+
+/*路线名称*/
+.routequery{ margin:0 auto; padding-left:200px;padding-top: 15px;padding-bottom: 15px; }
+.routequery dl{float:left; line-height:25px; width:350px; }
+.routequery dl dt{ background:url(../images/bullet_red.gif) no-repeat 0 8px; padding-left:12px;float: left;font-size: 14px;font-weight: bolder; color:#333; font-family:"微软雅黑";}
+.routequery dl dd{ color:#F60; font-size:12px; font-family:"微软雅黑";}
+.routequery  p{color:#C00;}
+
+input {font-family: Arial;}
+#content { margin:0 auto;	width: 950px;border: 5px #CEB327 solid;}
+#content h2 {height: 20px;line-height: 20px;font-size: 14px;overflow: hidden;_zoom: 1;text-indent: 24px; background:url(../images/order.gif) no-repeat  12px 3px;}
+#content h2 span {float: left;}
+#content h2 span.stip {	font-size: 12px;font-weight: normal;color: #F58B33;text-indent: 38px;}
+#content h2 .checktip {height: 32px;text-indent: 0;font-size: 13px;float: left;_display: inline;margin-left: 1em;}
+#content h2 .checktip input {*float:left;*margin-top:11px;}
+#content h2 .checktip label {*float:left;	font-weight: bold;}
+#content h2 .cblue {	font-size: 13px;	font-weight: normal;	margin-left: 10px;}
+.order_border {border-bottom: 5px #bae090 solid;padding-bottom: 15px;}
+.order_style2 {padding-bottom: 30px;}
+#content .order_style2 h2 {text-indent: 50px;background-position: -29px 14px;}
+.order_table {width: 765px;margin: 0 auto;border-collapse: collapse;margin-top: 13px;}
+.order_table td, .order_table th {	padding: 0 10px;}
+.order_table th {height: 25px;line-height: 25px;font-weight: normal;border-top: 1px #DEEFCB solid;	border-bottom: 1px #fff solid;
+	background: #F7FCF2;}
+.order_table td {line-height: 21px;padding: 5px 10px;border-top: 1px #EAEAEA dashed;}
+.order_table .tour_date span {color: #f60;font-weight: bold;font-size: 12px;}
+.input_table1{width:510px; margin:10px  auto 0;}
+.input_table1 td{line-height:26px;}
+.input_table {width: 710px;	margin: 10px auto 0;font-size: 12px; font-family:"宋体";}
+.input_table td {	line-height: 26px;}
+.input_table select {	border: 1px #A7A6AA solid;}
+.input_table .dzradio {	top: 0;}
+.cred{color:#F00;}
+.input_table tr.dottedbto td {border-bottom: 1px #C8C8C8 dashed;}
+.input_table3 {	width: 750px;	margin: 0 auto;	font-size: 13px;}
+.input_table3 td {line-height: 26px;}
+.input_table3 td.radio_input input {	top: 0;}
+.input_table3 select {	border: 1px #A7A6AA solid;}
+.input_table3 .dzradio {	top: 0;}
+.input_table3 tr.dottedbto td {	border-bottom: 1px #C8C8C8 dashed;}
+.peis_table {width: 96%;margin: 0 auto;}
+.peis_table2 {margin: 0;}
+.peis_table2 td {	border: none;	padding-left: 0;	padding-right: 0;}
+.peis_time {	padding: 8px 0;	border-bottom: 1px dashed #eaeaea;}
+#other_dz td {	padding-left: 15px;}
+.input_table2 {	width: 750px;	margin: 0 auto;	font-size: 13px;	border-collapse: collapse;}
+.input_table2 td {	line-height: 26px;text-align: right;	border-top: 1px #EAEAEA dashed;}
+.input_table2 th {	text-align: right;	height: 23px;	line-height: 23px;	background: #F8F8F8;	border-bottom: 1px #fff solid;}
+.input_table2 .pltd {text-align: left;padding-right: 10px;}
+.input_table2 .prtd {padding-right: 10px;}
+.input_table2 select {border: 1px #A7A6AA solid;}
+.input_table2 .dzradio {top: 0;}
+.input_table2 tr.dottedbto td {	border-bottom: 1px #C8C8C8 dashed;}
+.input_table2 td img {	vertical-align: middle;	margin-left: 3px;}
+
+.txt_m, .txt_l, .txt_s1, .txt_s2 {	border: 1px #A7A6AA solid;height: 18px;	line-height: 18px;	padding: 1px 2px;}
+.txt_m {	width: 146px;}
+.txt_textarea {	width: 740px;	height: 5em;	overflow: auto;}
+.txt_mnum {width: 20px;text-align: right;}
+.txt_l {	width: 206px;}
+.txt_s1 {width: 39px;}
+.cgrey2{color:#999;}
+.cgrey{color:#666;}
+.orange_border {	border: 1px #F78B33 solid;}
+.err_notice {display: inline-block;color: #eb0000;font-size: 12px;text-indent: 20px; background:url(../images/unchecked.jpg) no-repeat 3px 6px;}
+.o_line, .o_line2 {	margin: 0 auto;	height: 10px;	margin-bottom: 10px;overflow: hidden;	border-bottom: 1px #C8C8C8 dashed;}
+.orspan {	color: #f60;}
+.input_pay {	padding-left: 100px;}
+.orcolor {	color: #f58b33;	font-size: 25px;	font-family: Arial;}
+.ortip {	color: #f58b33;	padding-left: 5px;}
+.radio_check {overflow: hidden;	_zoom: 1;	height: 30px;line-height: 30px;}
+.radio_check input {	float: left;	margin-top: 8px;	_margin-top: 5px;}
+.radio_check label {	float: left;	font-size: 13px;	font-weight: bold;	color: #3c3c3c;}
+.radio_check span {float: left;font-size: 13px;font-weight: bold;color: #3c3c3c;}
+.u_line {text-decoration: underline;}
+.cyellow {color:#eb0000;}
+.f12{font-size:12px; font-family:"宋体";}
+.fnormal{font-weight:normal;}
+.tra_info { font-size:12px; font-family:"宋体";color: #C00;background: #FFFBF3;padding: 10px;margin: 20px 30px 0 16px;}
+.order_box {padding: 0 10px 15px 10px;margin-top: 15px;}
+.order_border2 {border-bottom: 1px #dbdbdb solid;}
+.next_step{text-align:center; padding-top:10px; padding-bottom:15px;}
+

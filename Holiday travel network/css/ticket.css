@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+**   代码制作人：candy
+**   制作时间  ：2012.12.11
+**   文件内容描述：网页主要框架样式
+**   涉及区域(1)：页面头部样式
+**   涉及区域(2)：页面主要加自由行机票和酒店内容框架样式
+**   涉及区域(3)：页脚样式
+************************************************* /
+
+/*首页面包屑*/
+.traverl{	display: inline;width: 769px; }
+.traverl_top{border-bottom: 1px solid #fff;}
+.traverl_top_bg{border-bottom: 1px solid #ccc;}
+.fbcurrent { padding-left:10px;}
+.fbcurrent a{float:left; color:#333;}
+.fbcurrent a:hover{color:#f00; text-decoration:underline;}
+.fbcurrent span {float:left;display: inline;width: 20px;text-align: center;}
+.traverl_credit{width: 599px;margin: 0 auto;padding: 35px 0;position: relative;}
+.traverl_credit a.mostmall {left: 0;}
+.traverl_credit a.examine{left:166px;}
+.traverl_credit a.write{left:335px;}
+.traverl_credit a.subscribe{left:510px;}
+.traverl_credit  a.credit_link{width:108px; height:91px;top: 15px;background: #fff;opacity: 0;filter: alpha(opacity=0);position:absolute;}
+
+/*旅游路线版块*/
+.part6 {width: 768px; margin-top:10px; position:relative;}
+.fast_border {border: 1px solid #c4c4c4;background: #F8FCFF;}
+.fast_tit {background:url(../images/engine_tit_bg.png) no-repeat scroll 0 0 transparent !important;_background: none;
+_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale,src='/images/engine_tit_bg.png',no-repeat);
+width: 139px;height: 36px;text-align: center;line-height: 36px;color: #fff;margin: -10px 0 0 15px; font-family:"微软雅黑"; font-size:18px;}
+.list14_box{float: left;overflow: hidden;  padding: 20px 30px;}
+.list_img{float:left; display:inline; padding-left:15px;}
+.list_img img{ width:204px; height:132px; padding:4px;-webkit-box-shadow: 1px 1px 3px #292929;-moz-box-shadow: 1px 1px 5px #292929;box-shadow: 1px 1px 5px #292929;behavior: url(ie-css3.htc);  }
+.f16{font-size:16px; position:absolute; top:3px; left:162px; font-family:"微软雅黑"; color:#FF7A17;}
+.hotlist_txt{ width: 366px;height: 120px; line-height:22px;padding: 5px 15px;float: left;color: #333; font-size:12px; font-family:"微软雅黑"; text-indent:1em;}
+.hotlist_price{overflow: hidden;text-align: right;color: #FF7A17;}
+.hotlist_price strong{font-size:16px; font-family:"微软雅黑"; font-weight:bold;}
+.hotlist_price dfn {padding-right: 1px;vertical-align: 3px;}
+.book{ float:right; }
+.book_txt{ float:right;background:url(../images/book_mark_h.gif) no-repeat; width:145px; height:20px; line-height:22px; font-family:"微软雅黑";}
+.book_txt a{color:#fff; padding-left:45px;}
+
+/*推荐行程TAB*/
+.protopbot{position:relative;overflow: hidden; width:768px; margin:20px 0 0 ; }
+.menubg{height:29px;position:relative;width:768px;overflow:hidden;}
+#tags li.current a {color: #39C;font-weight: 700;background: #fff;border-style: solid solid none solid;border-color: #22BCDD #a9c9e2 #a9c9e2;border-width: 3px 1px 0 1px;}
+.tagContent{display: none;
+padding: 10px 20px 0;}
+#tagContent{ overflow: hidden;position: relative; background:#fff;border: 1px solid #b5d0ed;padding-top: 1px;margin-bottom: 10px}
+#tags li {float: left;list-style-type: none;height: 29px;margin-right: 5px;}
+#tags li a{position: relative;color: #39C;font-size: 14px;float: left;height: 29px;line-height: 29px;border-style: solid solid none solid;border-color: #a9c9e2 #a9c9e2 #a9c9e2;border-width: 1px 1px 0 1px;border-radius: 4px 4px 0 0;margin: 0 4px 0 0;padding: 0 12px;background: #e8f5fe; font-family:"微软雅黑"; font-weight:700;}
+.tagContent p.tt{font-size: 14px;padding-left: 20px; color:#333; font-weight:700; background:url(../images/gif-0820.gif) no-repeat left center;border-bottom: 1px solid #22BCDD;margin-bottom: 10px;line-height: 32px;}
+.tagContent p{line-height:18px; margin:8px 0; color:#333;font-size:12px; font-family:"微软雅黑";}
+
+/*推荐行程表单*/
+.demo{width:768px; border:1px solid #a9c9e2; margin:0 auto; background:#fff; }
+.qline { height:28px;line-height: 28px;margin: 10px; padding-left:150px; background:#9C9;}
+.txt_x{width:146px;}
+.txt_input{border: 1px #A7A6AA solid;height: 18px;line-height: 18px;padding: 1px 2px;}
+.txt_c{width:90px;}
+.orderpro-list {border-top: 1px solid #E5E5E5;width: 710px; margin:0 auto; line-height:25px; }
+.coll, .co12,.co13{border: 1px solid #a6c695; text-align:center;}
+.coll{width:380px;  }
+.co12{width:191px;}
+.co13{width:79px;}
+.next_step {text-align: center;padding-top: 10px;padding-bottom: 15px;}
+.o_line{margin: 0 auto;height: 10px;margin-bottom: 10px;overflow: hidden;border-bottom: 1px #C8C8C8 dashed;}
+
+
+/*国内/出境游目的地*/
+.paft2_left {	float: left;	clear: both;	width: 224px;}
+.phb1 {	position: relative;	margin-top: 10px;	padding: 33px 0 0 10px;	width: 212px;	border: 1px solid #D2D2D2;	background-color: #F1F1F1;}
+.phb2 {	position: relative;	margin-top: 10px;	margin-bottom: 10px;	padding: 33px 0 0 10px;	width: 212px;	border: 1px solid #D2D2D2;	background-color: #F1F1F1;}
+.phpos {	position: absolute;	padding-left: 25px;	background: url(../images/phbg.gif) no-repeat;}
+.phtop {	top: -2px;	left: 10px;}
+.phpos b {	margin-left: 5px;	height: 32px;	color: #385600;	font-size: 12px;	font-family:"宋体"; line-height: 32px}
+.phbtop {	overflow: hidden;	height: 5px;background: url(../images/phbtop.gif) no-repeat;}
+.phbcont {	position: relative;	background: url(../images/phbcont.gif) repeat-y;width: 203px;}
+.phbbot {	overflow: hidden;	height: 8px;	background: url(../images/phbbot.gif) no-repeat;}
+.phbcont dl{ padding-right: 5px;  padding:5px 0 5px 0;overflow: hidden;_zoom: 1; }
+.phbcont dl dt{background: url(../images/ydjy_jiao.gif) no-repeat 12px 5px ;color: #445714;font-size: 14px; font-family:"宋体"; font-weight:bold; text-indent:25px; height:20px; line-height:20px; margin-top:-1px;}
+.phbcont dl dt a{color: #445714; text-decoration:underline;}
+.phbcont dl dd{float: left;margin-left: 12px;_display: inline;line-height: 26px;white-space: nowrap;}
+.phbcont dl dd a{color:#666;}
+.phbcont dl dd a:hover{color:#F60; text-decoration:underline;}
+
+
+/*专题广告*/
+.part7, .part9 {	margin-top: 10px;	width: 768px;	height: 199px;background: #FFF;}
+.list13_box { float:left; display:inline;padding: 16px 10px 0 16px;}
+.list13_box li{width:228px; float:left; display:inline; margin-left:12px;}
+.list13_box li h2{text-align: center;width: 228px;background-color: #000;height: 28px;line-height: 28px; color:#fff;}
+.list13_box li h2 a{color:#fff; font-weight:normal;}
+.list13_box li h2 a:hover{text-decoration:underline;}
+.list13_box li img{width:228px; height:140px;}
+
+/* 搜索  */
+.part1 {position: relative;z-index: 1000;clear: both;	width: 223px;	height: 213px;	background: #FFF;}
+.search{height: 29px;	line-height: 29px;overflow:hidden; padding:0 5px; background:#f5f5f5;}
+.search span{font-weight:bold; padding-left:5px;}
+.list1{padding:6px 15px;}
+.list1 li{height:33px;}
+.part1 input.i_city {	width: 132px;	height: 22px;line-height: 22px;	border-left: 1px solid #B8B8B8;	border-top: 1px solid #B8B8B8;	border-right: 1px solid #DCDCDC;	border-bottom: 1px solid #DCDCDC;	-moz-box-shadow: 1px 2px 2px #E9E9E9;	-webkit-box-shadow: 1px 2px 2px #E9E9E9;	box-shadow: 1px 2px 2px #E9E9E9;}
+.part1 select {margin-left: 8px;width: 135px;height: 22px;vertical-align: middle;font-size: 12px;}
+.searchbtnbox {	text-align: center; overflow:hidden;}
+.searchbtnbox input.searchbtn { overflow:hidden; text-indent:9999px;	width: 87px;	height: 26px;	border: none;	background: url(../images/home_search_btn.gif) no-repeat;	cursor: pointer;}
+
+
+
+
+
+/*分页*/
+.page {	margin: 20px 0 5px;	text-align: center;	font-size: 12px;	font-family: Arial, Helvetica, sans-serif;}
+.page span {	background-color: #8CA83A;	color: #FFF;}
+.page a, .page span {	padding: 5px 10px;	margin: 0 5px;}
+.page span {	color: #FFF;}
+.page a {	background-color: #D4D4D4;	color: #FFF;}
+.page a:hover {background-color: #8CA83A;}
+.page span.pagecss {	border: none;	background: none;}
+
+
+
+
