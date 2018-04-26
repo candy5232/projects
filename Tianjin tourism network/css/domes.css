@@ -1,0 +1,63 @@
+#part4{overflow:hidden;}
+#part5 {overflow: hidden;}
+.conlist.bmn {border-bottom: none;}
+/*文字滚动*/
+.sidecon{width:320px;height: 313px;}
+.sidecon_con{overflow:hidden;border: 1px solid #dddddd; height: 313px;border-top: none;}
+.box_title {font-family: "microsoft yahei"; color: #333;font-size:18px;line-height: 36px; height:36px; font-weight:normal;padding-left:15px;border-bottom: 1px solid #dddddd;border-top: 2px solid #22ADE6;}
+#cond {width: 320px;height: 270px;position: relative;overflow: hidden;}
+#cond li span{ float:left; display:inline;color: #B5B5B5;}
+#cond ul {  top: 0;left: 0;padding: 0; position:relative; padding-left:10px;}
+#cond ul li {width: 100%; margin-left:10px;border-bottom: 1px dotted #d6d6d6;padding: 10px 0;_padding: 8px 0;overflow: hidden; line-height:1.5;}
+#cond ul li  a { color:#03F;padding: 0px; line-height:22px;}
+#cond ul li  span{ margin: 0 5px;}
+#cond ul li  b{font-weight: normal;}
+#cond ul li p{margin-left:10px;}
+#cond ul li .div_left  .twit_item_time {color: #999;padding: 0px;}
+
+/*焦点图*/
+.containnew{width:670px;}
+#focus{width:670px;height:314px;  overflow:hidden; position:relative;}
+#focus ul { height:364px;position:absolute;}
+#focus ul li {float:left; width:670px;height:314px;  overflow:hidden; position:relative; }
+#focus ul li div {position:absolute; overflow:hidden;}
+#focus .preNext {width:28px; height:44px; position:absolute; top:150px; background:url(../images/sprite.png) no-repeat 0 0; cursor:pointer;}
+#focus .pre {left:0;}
+#focus .next {right:0; background-position:right top;}
+
+
+
+
+/*旅游分类左侧*/
+.side_hot{width:318px; overflow:hidden;border: 1px solid #dddddd;border-top: none;}
+.box_title1{font-family: "microsoft yahei"; color: #333;font-size:18px;line-height: 36px; height:36px; font-weight:normal;padding-left:15px;border-top: 2px solid #22ADE6;}
+.subitem dl{border-top: 1px dotted #e2e2e2;overflow: hidden;zoom: 1;padding: 8px 10px 8px 15px;}
+.subitem dl dt { float: left; display:inline; width:55px;margin-top:8px;text-align: left; font-weight:bold;}
+.subitem dl dt a {color: #e47911;}
+.subitem dd {float: left;width: 290px;overflow: hidden;zoom: 1;padding: 2px 0 0;}
+.subitem dd a {float: left; display:inline; font-weight:normal;white-space: nowrap;height: 14px;line-height: 14px;margin: 6px 0;padding: 0 8px;}
+
+/*旅游分类选项卡*/
+.con_tab {width: 668px;height: 620px;border: 1px solid #DDD;border-top: none; overflow:hidden;}
+.con_hd{border-top: 2px solid #22ADE6;}
+.con_tabdiv .iThinkSp {font-size: 18px;font-family: "microsoft yahei";padding-left: 14px;float: left;color: #22ADE6;display: inline-block;font-weight: normal;}
+.con_tabdiv {width: auto;height: 35px;line-height: 35px;border-bottom: 1px solid #DDD;position: relative;}
+.con_bg {background-color: #EDF8FF;}
+.switchBox dt{height: 45px;float: left;padding-left: 19px;}
+.switchBox span{float: left;width: 53px;text-align: center;font-size: 12px;color: #666;font-family: simsun;padding-right: 7px;display: inline-block;cursor: pointer;display: block;}
+.switchBox dt .on{background:url(../images/tab_03.png) no-repeat;width: 60px;height: 46px; color:#fff;}
+
+.switchBox dd a{float:left; display:inline;}
+.moreViewBtn {color: #999;font-size: 12px;font-family: simsun; position:absolute; right:5px; top:0;}
+.conlist{clear: both;height: auto;height: 91px;min-height: 91px!important;line-height: 20px;width: 640px;padding: 10px 15px;border-bottom: 1px solid #DDD;padding-top: 10px;}
+
+.img { float:left;display: inline-block;width: 100px;height: 75px;border: 2px solid #FFF;}
+.info {float: left; display:inline;width: 520px;  margin-left:15px; margin-top:10px; }
+.t a{color: #333;font-weight: bold;font-size: 14px;display: inline-block;width: 441px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.decs{color:#666; width:421px; overflow:hidden; padding:10px 0 10px;text-overflow: ellipsis;white-space: nowrap;float: left;}
+.pricetail{float:right; display:inline;color: #F80;font-weight: bold;font-family: "Verdana"; font-size:20px; width:80px; }
+.pricetail .cee{color: #666;font-size: 12px;font-weight: normal; float:right;width:15px; margin-top:3px;}
+
+.conlist.bmn {border-bottom: none;}
+
+

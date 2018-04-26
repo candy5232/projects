@@ -1,0 +1,44 @@
+/*Slide Start幻灯片位置开始*/
+#flashLine {height: 388px;width: 100%; overflow:hidden;}
+#flash{width: 1600px;height: 388px;overflow: hidden;margin: 0 auto;clear: both;position: relative;padding: 0px 0px;}
+#flash a {width: 1600px;height: 388px;display: none;}
+#flash img {width: 100%;height: 388px;}
+.flash_bar {width:555px;z-index: 69;height: 30px;overflow: hidden;position: absolute;padding-top: 13px!important;padding-top: 12px;
+bottom:0; right:0;text-align: center;}
+.flash_bar .dq {display: block;float: left;width: 12px;height: 12px;margin:2px 4px;cursor: pointer;background: url(../images/pagination.png) no-repeat 0px -12px; overflow:hidden;_background: none; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://vizo.retail20.cn/images/pagination.png" ,sizingMethod="crop");}
+.flash_bar .no {display: block;float: left;width: 12px;height: 12px;margin:2px 4px;cursor: pointer;
+background:url(../images/pagination.png) no-repeat 0px 0px; overflow:hidden;_background: none;_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://vizo.retail20.cn/images/pagination.png" ,sizingMethod="crop");}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

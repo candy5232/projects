@@ -1,0 +1,94 @@
+.box{ width:1000px; margin:0 auto;}
+.basefix {width: 1000px;border-bottom: 2px solid #F08300;margin-top: 15px; }
+.basefix h2{padding-bottom: 5px;font-family: "Microsoft YaHei";font-size: 22px;color: #09F;font-weight: 700;}
+.PrimImgRight{ float:right;height:40px; margin-top:5px;width: 400px }
+.PrimImgRight div span {font: 14px "microsoft yahei";float: left;margin-top: 10px;}
+.orderbtn{background:url(../images/p27.jpg) no-repeat; width:121px; height:38px; border:none;  display:inline-block; cursor:pointer; margin-left:45px;}
+/*焦点图*/
+.banner{ width:470px; height:364px; }
+#focus{width:470px; height:364px; overflow:hidden; position:relative;}
+#focus ul { height:364px;position:absolute;}
+#focus ul li {float:left; width:470px;height:364px;  overflow:hidden; position:relative; }
+#focus ul li div {position:absolute; overflow:hidden;}
+#focus .preNext {width:28px; height:44px; position:absolute; top:150px; background:url(../images/sprite.png) no-repeat 0 0; cursor:pointer;}
+#focus .pre {left:0;}
+#focus .next {right:0; background-position:right top;}
+ /*日期插件*/
+#dateInfo{ font-size:14px; color:#666;  font: 12px/20px Sinsum,Arial;}
+#dateinfo {font-weight: bold;margin: 3px;}
+.tourinfo {border-spacing: 2px;}
+#routePrice{border: 1px solid #eaeaea;}
+td.day {border: 1px solid #d1dfe8;height: 35px;overflow: hidden; text-align:center;}
+.calendar td div{font-family: Simsun;font-weight: 400;height: 40px;line-height: 12px;overflow: hidden;text-align: right;width:64px;}
+td.calBox div.date b{color:#000; font-weight:bold;}
+td.calBox div.date em{color:#06F;font-weight:normal; display:block; line-height:1.2; padding-right:4px;}
+.base_price{color: #FF7A17; font-style:normal;}
+.base_price dfn {color: #e56700;font-family: Arial, Simsun;font-size: 12px;}
+td.calBox div.signUpDate{ font-size: 12px;cursor: pointer; height:26px; }
+/*日历新样式*/
+.calendar{ width: 470px;background-color: #fff;border-collapse: collapse;color: #b5b5b5;font-family: Arial, simsun, sans-serif; }
+.clae_title{height: 25px;background: #F3F3F3;}
+.calendar-weeks{height: 24px;background: #FFC;}
+.calendar-title{height:36px;}
+.calendar-week-days{height:45px;}
+.calendar td{text-align: center;border: 1px solid #E8E8E8;vertical-align: middle;}
+td.calBox1{border: 1px solid #C3ECFF;width: 64px;height: 26px;vertical-align: top;color: black;  text-align:center; line-height:26px;}
+table,td,tr,th{font-size:12px; font-family:"宋体";}
+table {border-collapse: collapse;border-spacing: 0;}
+.routePrice{margin-bottom:30px;}
+/*推荐行程TAB*/
+.protopbot{position:relative;overflow: hidden; width:980px; margin:20px 0 0 ;}
+.menubg{height:29px;position:relative;width:768px;overflow:hidden;}
+#tags li.current a {color: #39C;font-weight: 700;background: #fff;border-style: solid solid none solid;border-color: #22BCDD #a9c9e2 #a9c9e2;border-width: 3px 1px 0 1px;}
+.tagContent{display: none;padding: 10px 20px 0;}
+#tagContent{ overflow: hidden;position: relative; background:#fff;border: 1px solid #b5d0ed;padding-top: 1px;margin-bottom: 10px}
+#tags li {float: left;list-style-type: none;height: 29px;margin-right: 5px;}
+#tags li a{position: relative;color: #39C;font-size: 14px;float: left;height: 29px;line-height: 29px;border-style: solid solid none solid;border-color: #a9c9e2 #a9c9e2 #a9c9e2;border-width: 1px 1px 0 1px;border-radius: 4px 4px 0 0;margin: 0 4px 0 0;padding: 0 12px;background: #e8f5fe; font-family:"微软雅黑"; font-weight:700; text-decoration:none;}
+.tagContent p.tt{font-size: 14px;padding-left: 20px; color:#333; font-weight:700; background:url(../images/gif-0820.gif)  no-repeat left center;border-bottom: 1px solid #22BCDD;line-height: 32px;}
+.tagContent p{line-height:22px;color:#333;font-size:12px; font-family:"微软雅黑"; }
+.tagContent  .red{font-weight:700; font-size:14px; color:#C00;margin-bottom: 10px;}
+.ProductPrim {border: 1px solid #B5D0ED;padding: 15px;zoom: 1;min-height: 399px; margin-top:10px;}
+/*行程安排*/
+.day_con{ padding:10px 0;}
+.day_con1{ padding:10px 0; width:980px;border-bottom: 1px solid #CCC; overflow:hidden;}
+.day_con1 ul {padding: 10px;background: #F2F2F2;margin: 10px 0;}
+.recommend_travel{line-height:26px;}
+.day_txt{ font:16px "微软雅黑"; font-weight:700;}
+.day_txt strong{ font-weight:700; background:url(../images/sanjiao.png) no-repeat;width:87px; height:26px; line-height:26px; float:left; color:#fff; text-align:center;}
+.day_txt  span{margin:0 12px;}
+.day_jinaj{font-size:14px;margin-top:5px;}
+. day_list {padding: 10px;background: #f2f2f2;margin: 10px 0;}
+.day_con li{ margin-right:5px; font-family:"宋体"; font-size:12px; line-height:24px;}
+
+.icon_plane{background:url(../images/plane.png) no-repeat;  padding-left:35px;}
+.icon_bus{background:url(../images/bus.png) no-repeat;  padding-left:35px;}
+.day_img{ width: 300px;height: 200px;float: left;display: inline;overflow: hidden;padding: 15px 0 12px 0;}
+.day_list{float: right;width: 570px;margin-top: 10px;}
+.day_list p{font-size:14px; line-height:26px; color:#333;}
+.bmo{border-bottom:none;}
+
+/*费用说明*/
+.statement_cost{ font-size:14px; line-height:26px;}
+.statement_cost dt{font-weight:bold; color:#F00;}
+.infoquote{margin-top:12px;padding: 20px 0px;position: relative; background:#EFFACC; margin-bottom:10px; }
+.infoquote .p4 { font-size:12px; font-family:"宋体"; padding-left:12px;}
+.infoquote .p4 span{ color:#f00; font-size:14px; font-weight:bold;}
+.p4 input{width: 120px;height: 22px;border: 1px solid #ccc; margin-left:7px; }
+.important_prompt{font-size:14px; line-height:26px;}
+.visa{line-height:26px;}
+.visa dt{font-weight:bold; color:#F00;}
+.DestContent{margin: 0 auto;width: 980px;}
+.TravelHd {height: 46px;padding: 0 15px;border-bottom: 1px solid #ebebeb;}
+.DestHdTitle{display:inline-block; font:bold 18px/46px  Microsoft YaHei; float:left; padding-right:30px; color:#0080C0;}
+.Destr{text-align:right; padding-top:10px;}
+.Destr .pkg-booking-btn, .Destr .onlineservice_bnt{background:url(../images/unbtn.png) no-repeat;width: 102px;height: 30px; display:inline-block; line-height:30px; margin-left:5px; text-align:center; font-size:14px; font-weight:bold;}
+.pkg-maodian {margin-top: -28px;position: absolute;width: 1px;overflow: hidden;}
+.h3_tit {border-bottom: 4px solid #0CA3C4;height: 26px;line-height: 26px;font-family: "微软雅黑";font-size: 16px; font-weight:bold;color: #333; }
+.h3_tit span {background: #0CA3C4;display: inline-block;padding: 0 20px; color:#fff; margin-right:10px; }
+
+
+
+
+
+
+
